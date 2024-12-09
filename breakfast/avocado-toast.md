@@ -28,7 +28,7 @@ This Avocado toast elevates a classic favorite with creamy avocado spread, a per
 In a bowl, mash the avocado with a fork until smooth but slightly chunky.
 Add lemon juice, a drizzle of olive oil, truffle oil, salt, and pepper. Mix well and set aside.
 
-Pro tips:
+**Pro tips:**
 
 1. Taste the avocado spread and adjust the seasoning as needed
 2. Leave in the fridge overnight for a better flavor
@@ -37,13 +37,13 @@ Pro tips:
 
 Lightly toast the sourdough slices until golden brown and crisp.
 
-Pro tip: Toast the bread in a skillet with a little butter for extra flavor.
+**Pro tip:** Toast the bread in a skillet with a little butter for extra flavor.
 
 ### Fry the Eggs
 
 Heat a non-stick skillet over medium heat. Crack the eggs into the skillet and cook until the whites are set but the yolks are still runny.
 
-Note: Original recipe calls for poached eggs, but I prefer fried eggs for a crispy texture.
+**Note:** Original recipe calls for poached eggs, but I prefer fried eggs for a crispy texture.
 
 ### Assemble the Avocado Toast
 
