@@ -31,7 +31,7 @@ Add lemon juice, a drizzle of olive oil, truffle oil, salt, and pepper. Mix well
 **Pro tips:**
 
 1. Taste the avocado spread and adjust the seasoning as needed
-2. Leave in the fridge overnight for a better flavor
+2. Leave in the fridge overnight to let the flavors meld together. Highly recommend.
 
 ### Toast the Bread
 
