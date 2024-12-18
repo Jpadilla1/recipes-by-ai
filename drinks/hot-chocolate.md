@@ -4,8 +4,8 @@
 **Prep Time**: 5 minutes  
 **Cook Time**: 10 minutes  
 
-
 ## Ingredients
+
 - **2 cups** whole milk (or your preferred milk)
 - **1/2 cup** heavy cream
 - **1/3 cup** high-quality dark chocolate (70% cocoa), finely chopped
@@ -19,6 +19,7 @@
 - *Optional garnishes*: dark chocolate shavings, cinnamon, or chocolate syrup
 
 ## Instructions
+
 1. **Heat the Milk and Cream**  
    In a medium saucepan, combine the milk and heavy cream. Heat over medium-low heat, stirring occasionally, until warm but not boiling.
 
