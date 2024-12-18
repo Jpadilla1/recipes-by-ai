@@ -1,6 +1,6 @@
 # Gingerbread Cheesecake Cookies
 
-Credit: <https://teakandthyme.com/gingerbread-cheesecake-cookies/>
+**Credit:** <https://teakandthyme.com/gingerbread-cheesecake-cookies/>
 
 **Prep Time:** 50 mins  
 **Cook Time:** 10 mins  
