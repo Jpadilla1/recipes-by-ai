@@ -2,9 +2,9 @@
 
 This Avocado toast elevates a classic favorite with creamy avocado spread, a perfectly fried egg, and luxurious toppings like microgreens, and everything bagel seasoning. The balance of creamy, tangy, and savory flavors makes it a gourmet brunch delight.
 
-- Serves: 2
-- Prep Time: 15 minutes
-- Cook Time: 10 minutes
+**Serves:** 2  
+**Prep Time:** 15 minutes  
+**Cook Time:** 10 minutes  
 
 ## Ingredients
 
