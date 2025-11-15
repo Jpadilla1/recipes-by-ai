@@ -16,6 +16,7 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 
 ### Desserts
 
+- [Healthy "Snickers" Stuffed Dates](desserts/healthy-snickers-stuffed-dates.md)
 - [Honey Baked Pears](desserts/honey-baked-pears.md)
 - [Puff Pastry Shells with Pumpkin Cream Filling](desserts/puff-pastry-shells-with-pumpkin-cream-filling.md)
 - [Strawberry Mascarpone Puff Tartlets](desserts/strawberry-mascarpone-puff-tartlets.md)
