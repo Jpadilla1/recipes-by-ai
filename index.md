@@ -5,6 +5,7 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 ### Breakfast
 
 - [Avocado Toast](breakfast/avocado-toast.md)
+- [Elevated Triple Coconut Oatmeal](breakfast/elevated-triple-coconut-oatmeal.md)
 
 ### Cookies
 
