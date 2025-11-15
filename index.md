@@ -13,6 +13,10 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 - [Lemon Almond Flour Shortbread Cookies](cookies/lemon-almond-shortbread-cookies.md)
 - [Magical Almond Cookies](cookies/magical-almond-cookies.md)
 
+### Desserts
+
+- [Strawberry Mascarpone Puff Tartlets](desserts/strawberry-mascarpone-puff-tartlets.md)
+
 ### Drinks
 
 - [Hot Chocolate](drinks/hot-chocolate.md)
