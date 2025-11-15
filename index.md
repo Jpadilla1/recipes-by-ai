@@ -10,6 +10,7 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 
 ### Bread
 
+- [Cranberry Walnut Bread (No-Knead)](bread/no-knead-cranberry-walnut-bread.md)
 - [No-Knead Whole Wheat Bread](bread/no-knead-whole-wheat-bread.md)
 
 ### Cookies
