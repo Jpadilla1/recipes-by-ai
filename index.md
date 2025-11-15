@@ -6,6 +6,7 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 
 - [Avocado Toast](breakfast/avocado-toast.md)
 - [Elevated Triple Coconut Oatmeal](breakfast/elevated-triple-coconut-oatmeal.md)
+- [Lemon Cream Bagel with Strawberries & Pistachio](breakfast/lemon-cream-bagel-with-strawberries-and-pistachio.md)
 
 ### Cookies
 
