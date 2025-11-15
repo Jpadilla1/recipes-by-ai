@@ -15,3 +15,4 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 ### Drinks
 
 - [Hot Chocolate](drinks/hot-chocolate.md)
+- [Orange Strawberry Sunset Mocktail](drinks/orange-strawberry-sunset-mocktail.md)
