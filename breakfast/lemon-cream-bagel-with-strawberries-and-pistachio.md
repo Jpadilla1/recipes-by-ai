@@ -35,4 +35,4 @@ A soft, floral, and gently sweet open-faced bagel to make your morning feel like
 1. **Whip the cream cheese base:** In a small bowl, combine the cream cheese, lemon zest, lemon juice, olive oil, vanilla extract, and sea salt. Beat with a fork or whisk until fluffy and airy. Chill if making ahead.
 2. **Toast the bagel or bread (optional):** Lightly toast for warmth and texture. Brush with olive oil if desired.
 3. **Assemble:** Generously spread whipped cream cheese on each half (or on toast). Layer sliced strawberries or cucumber ribbons. Sprinkle crushed pistachios over the top. Drizzle with a touch of maple syrup. Finish with microgreens or edible flowers for plating.
-4. **Serve:** Plate on a ceramic dish, serve with a warm chamomile vanilla steamer (or butterfly pea tea version), and add a flower beside it.
+4. **Serve:** Plate on a ceramic dish and add a flower beside it.
