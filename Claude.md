@@ -2,6 +2,12 @@
 
 This file contains guidelines for adding and managing recipes in this repository.
 
+## ⚠️ MOST IMPORTANT RULE ⚠️
+
+**ALWAYS UPDATE index.md WHEN ADDING A NEW RECIPE**
+
+When you add a new recipe, you MUST add it to the `index.md` file under the appropriate category. The recipe will not appear on the website without this step!
+
 ## Recipe Format
 
 All recipes must follow this standard format:
@@ -55,10 +61,14 @@ Storage instructions if applicable.
 
 Current categories:
 - `breakfast/`
+- `bread/`
 - `cookies/`
+- `desserts/`
 - `drinks/`
 
 ### When Adding a Recipe
+
+⚠️ **CRITICAL: EVERY NEW RECIPE MUST BE ADDED TO index.md** ⚠️
 
 1. **Choose or Create Category**
    - Use an existing category if appropriate
@@ -70,12 +80,14 @@ Current categories:
    - Include all required sections
    - Use measurements in both imperial and metric where the original provides them
 
-3. **Update index.md** ⚠️ **CRITICAL**
+3. **Update index.md** ⚠️ **MANDATORY - DO NOT SKIP THIS STEP** ⚠️
    - **ALWAYS** update the `index.md` file when adding a new recipe
+   - This step is REQUIRED for the recipe to appear on the website
    - Add the recipe link under the appropriate category heading
    - If creating a new category, add a new heading and list the recipe
    - Keep categories in alphabetical order
    - Keep recipes within categories in alphabetical order
+   - Format: `- [Recipe Name](category/file-name.md)`
 
 ### Example index.md Update
 
