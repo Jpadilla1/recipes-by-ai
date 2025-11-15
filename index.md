@@ -8,6 +8,10 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 - [Elevated Triple Coconut Oatmeal](breakfast/elevated-triple-coconut-oatmeal.md)
 - [Lemon Cream Bagel with Strawberries & Pistachio](breakfast/lemon-cream-bagel-with-strawberries-and-pistachio.md)
 
+### Bread
+
+- [No-Knead Whole Wheat Bread](bread/no-knead-whole-wheat-bread.md)
+
 ### Cookies
 
 - [Gingerbread Cheesecake Cookies](cookies/gingerbread-cheesecake.md)
