@@ -10,6 +10,7 @@ Welcome! This is a dump of recipes that I've either generated with ChatGPT or fo
 
 - [Gingerbread Cheesecake Cookies](cookies/gingerbread-cheesecake.md)
 - [Lemon Almond Flour Shortbread Cookies](cookies/lemon-almond-shortbread-cookies.md)
+- [Magical Almond Cookies](cookies/magical-almond-cookies.md)
 
 ### Drinks
 
