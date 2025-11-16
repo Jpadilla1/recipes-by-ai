@@ -265,6 +265,11 @@ p {
   font-weight: 300;
 }
 
+strong, b {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 /* Links */
 a {
   color: var(--link-color);
@@ -351,13 +356,9 @@ li {
   border: none;
   border-bottom: 1px solid var(--border-color);
   border-radius: 0;
-  padding: 2rem 0;
+  padding: 0;
   transition: border-color 0.2s ease;
   margin: 0;
-}
-
-.recipe-list li:first-child {
-  padding-top: 0;
 }
 
 .recipe-list li:last-child {
@@ -375,6 +376,11 @@ li {
   text-decoration: none;
   display: block;
   letter-spacing: 0.02em;
+  padding: 2rem 0;
+}
+
+.recipe-list li:first-child a {
+  padding-top: 0;
 }
 
 .recipe-list a:hover {
