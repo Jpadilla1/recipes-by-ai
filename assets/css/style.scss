@@ -101,7 +101,6 @@ body {
 /* Header Styles */
 header {
   background-color: var(--bg-primary);
-  border-bottom: 1px solid var(--border-color);
   padding: 2rem 0;
   margin-bottom: 3rem;
   transition: background-color 0.3s ease;
@@ -551,7 +550,6 @@ hr {
 footer {
   margin-top: 6rem;
   padding: 3rem 0;
-  border-top: 1px solid var(--border-color);
   text-align: center;
   color: var(--text-muted);
   font-size: 0.875rem;
