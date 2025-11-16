@@ -1,9 +1,11 @@
 # Elevated Triple Coconut Oatmeal
 
+<div class="recipe-meta">
 **Prep Time:** 5 mins
 **Cook Time:** 15 mins
 **Total Time:** 20 mins
 **Yield:** 2 servings
+</div>
 
 A luxurious coconut-forward oatmeal featuring toasted oats in coconut milk, topped with caramelized bananas, toasted coconut, and cashews.
 

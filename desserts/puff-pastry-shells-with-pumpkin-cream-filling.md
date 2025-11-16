@@ -1,9 +1,11 @@
 # Puff Pastry Shells with Pumpkin Cream Filling
 
+<div class="recipe-meta">
 **Prep Time:** 25 mins
 **Cook Time:** 24 mins
 **Total Time:** 49 mins
 **Yield:** 8-10 shells
+</div>
 
 Crispy puff pastry shells filled with spiced pumpkin cream for a delightful fall-inspired dessert.
 
