@@ -8,11 +8,11 @@ A refreshing layered mocktail with vibrant strawberry and orange flavors, perfec
 
 ## Ingredients
 
-- 1/2 cup strawberries (fresh or frozen)
+- ½ cup strawberries (fresh or frozen)
 - 1 tablespoon maple syrup (or honey/agave)
 - 1 tablespoon lemon juice
 - 1 cup orange juice (freshly squeezed if possible)
-- 1/2 cup sparkling water (or lemon-lime soda for a sweeter version)
+- ½ cup sparkling water (or lemon-lime soda for a sweeter version)
 - Ice cubes
 
 ### Optional Garnishes

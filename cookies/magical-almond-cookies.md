@@ -12,16 +12,16 @@ Chewy and sweet, these paleo almond cookies are completely addicting but decepti
 ## Ingredients
 
 - 2 cups store-bought almond meal
-- 1/3 cup maple syrup
-- 1 1/2 tablespoons coconut oil, melted
+- ⅓ cup maple syrup
+- 1½ tablespoons coconut oil, melted
 - 1 teaspoon vanilla extract
-- 1/2 teaspoon baking soda
-- 1/8 teaspoon salt
+- ½ teaspoon baking soda
+- ⅛ teaspoon salt
 - 1 tablespoon water (if needed)
 
 ## Instructions
 
-1. **Preheat oven:** Preheat oven to 350°F.
+1. **Preheat oven:** Preheat oven to 350°F (175°C).
 2. **Mix dry ingredients:** In a bowl, combine dry ingredients (almond meal, baking soda, salt). Mix well.
 3. **Mix wet ingredients:** In another bowl, combine wet ingredients (maple syrup, coconut oil, vanilla). Mix well.
 4. **Combine:** Fold wet ingredients into the dry and mix. The dough should be very sticky and difficult to stir. However, if the cookie dough is impossible to stir, add a maximum of 1 tablespoon of water.

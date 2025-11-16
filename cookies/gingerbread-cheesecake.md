@@ -62,10 +62,10 @@
 9. **Stuff the cookie dough with cheesecake:** You can do this in two ways. 1) Press the cookie dough with your fingers until it becomes a flat sheet. Place the frozen cheesecake dollop in the middle and wrap it up by bringing the cookie dough back up around the cheesecake. 2) Split the cookie dough in half. Flatten each half separately into two flat rounds. Place the cheesecake dollop on top of one round. Place the other round on top and pinch the dough together to seal.
 
 10. **Roll in sugar:** Roll the cookie dough ball in between your hands and then roll it in granulated sugar until coated. Place the dough ball on your lined baking sheet, leaving about 2" in between each ball to account for spreading.
-Bake: Bake cookies for 10-11 minutes or until the edges are set and the surface is puffy and slightly cracked.
-Cool: Let the cookies cool on the baking sheet for about 5 minutes before transferring them to a wire rack to cool completely.
+11. **Bake:** Bake cookies for 10-11 minutes or until the edges are set and the surface is puffy and slightly cracked.
+12. **Cool:** Let the cookies cool on the baking sheet for about 5 minutes before transferring them to a wire rack to cool completely.
 
-#### Pro tips
+### Pro Tips
 
 - If you don't have a cookie scooper, you can use a measuring cup to scoop the dough. A ¼ cup measuring cup will work well for this recipe.
-- For storage, keep the cookies in the fridge due to the cheesecake filling. I put mine in a store bought bakery box and wrapped the box in plastic wrap to prevent moisture from getting in. Don't know how long they last because they were gone the next day.
+- For storage, keep the cookies in the fridge due to the cheesecake filling. Store in an airtight container or bakery box wrapped in plastic wrap to prevent moisture from getting in.
