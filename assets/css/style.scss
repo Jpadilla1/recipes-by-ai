@@ -10,7 +10,7 @@
   --bg-code: #f5f5f5;
   --text-primary: #171717;
   --text-secondary: #525252;
-  --text-muted: #a3a3a3;
+  --text-muted: #737373;
   --border-color: #e5e5e5;
   --accent-color: #171717;
   --accent-hover: #404040;
@@ -27,7 +27,7 @@
     --bg-code: #262626;
     --text-primary: #fafafa;
     --text-secondary: #a3a3a3;
-    --text-muted: #737373;
+    --text-muted: #8a8a8a;
     --border-color: #262626;
     --accent-color: #fafafa;
     --accent-hover: #d4d4d4;
@@ -43,7 +43,7 @@
   --bg-code: #262626;
   --text-primary: #fafafa;
   --text-secondary: #a3a3a3;
-  --text-muted: #737373;
+  --text-muted: #8a8a8a;
   --border-color: #262626;
   --accent-color: #fafafa;
   --accent-hover: #d4d4d4;
@@ -126,7 +126,7 @@ header p {
 /* Theme Toggle */
 .theme-toggle {
   background: transparent;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--text-secondary);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -142,6 +142,20 @@ header p {
 .theme-toggle:hover {
   border-color: var(--text-primary);
   background: var(--bg-secondary);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+.theme-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
 }
 
 .theme-toggle-icon {
@@ -225,6 +239,21 @@ a {
 
 a:hover {
   color: var(--link-hover);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
   text-decoration: underline;
 }
 
