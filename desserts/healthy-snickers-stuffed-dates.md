@@ -1,11 +1,9 @@
 # Healthy "Snickers" Stuffed Dates (PB, Pecans, Dark Chocolate, Sea Salt)
 
-<div class="recipe-meta">
 **Prep Time:** 15 mins
 **Chilling Time:** 35-50 mins
 **Total Time:** 50-65 mins
 **Yield:** 10-12 bites
-</div>
 
 A healthier take on the classic Snickers bar, featuring Medjool dates stuffed with salted peanut butter, pecans, and coated in dark chocolate.
 

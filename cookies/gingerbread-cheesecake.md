@@ -2,13 +2,11 @@
 
 **Credit:** <https://teakandthyme.com/gingerbread-cheesecake-cookies/>
 
-<div class="recipe-meta">
 **Prep Time:** 50 mins
 **Cook Time:** 10 mins
 **Chilling Time:** 2 hrs
 **Total Time:** 3 hrs
 **Yield:** 11 large cookies
-</div>
 
 **Pro Tip:** Half the recipe to make 6 cookies. These are thick cookies and suggest to have half a cookie per serving.
 
