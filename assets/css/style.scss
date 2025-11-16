@@ -451,15 +451,8 @@ li {
   margin: 3rem 0;
   border-radius: 0;
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 767px) {
-  .recipe-meta {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .recipe-meta p {
@@ -472,7 +465,7 @@ li {
 
 .recipe-meta strong {
   color: var(--text-primary);
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
