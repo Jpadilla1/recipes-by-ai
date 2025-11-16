@@ -1,9 +1,34 @@
+title: Recipes by AI
+description: A curated collection of AI-enhanced recipes
+author: Your Name
+url: https://jpadilla1.github.io
+baseurl: /recipes-by-ai
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Plugins
 plugins:
   - jekyll-relative-links
+
+# Relative links
 relative_links:
   enabled: true
   collections: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Include files
 include:
   - breakfast/avocado-toast.md
   - cookies/gingerbread-cheesecake.md
   - drinks/hot-chocolate.md
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Claude.md

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A collection of AI-enhanced recipes">
+  <meta name="color-scheme" content="light dark">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Recipes by AI</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🍳 Recipes by AI</h1>
+      <p>A delicious collection of AI-enhanced recipes</p>
+    </div>
+  </header>
+
+  <main class="container">
+    {% if page.url != "/" and page.url != "/index.html" %}
+    <a href="{{ '/' | relative_url }}" class="back-link">Back to all recipes</a>
+    {% endif %}
+
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Made with ❤️ and AI | <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">View on GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
