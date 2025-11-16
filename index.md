@@ -1,10 +1,10 @@
-Welcome! This is a curated collection of recipes that have been generated or enhanced with AI. Each recipe has been crafted with care, and where applicable, credit links to original recipes are included. Enjoy exploring these culinary creations!
+A curated collection of recipes generated or enhanced with AI.
 
 ## Recipe Categories
 
 <div class="category-section">
 
-### 🥐 Breakfast
+### Breakfast
 
 <ul class="recipe-list">
 <li><a href="breakfast/avocado-toast">Avocado Toast</a></li>
@@ -16,7 +16,7 @@ Welcome! This is a curated collection of recipes that have been generated or enh
 
 <div class="category-section">
 
-### 🍞 Bread
+### Bread
 
 <ul class="recipe-list">
 <li><a href="bread/no-knead-cranberry-walnut-bread">Cranberry Walnut Bread (No-Knead)</a></li>
@@ -27,7 +27,7 @@ Welcome! This is a curated collection of recipes that have been generated or enh
 
 <div class="category-section">
 
-### 🍪 Cookies
+### Cookies
 
 <ul class="recipe-list">
 <li><a href="cookies/gingerbread-cheesecake">Gingerbread Cheesecake Cookies</a></li>
@@ -39,7 +39,7 @@ Welcome! This is a curated collection of recipes that have been generated or enh
 
 <div class="category-section">
 
-### 🍰 Desserts
+### Desserts
 
 <ul class="recipe-list">
 <li><a href="desserts/healthy-snickers-stuffed-dates">Healthy "Snickers" Stuffed Dates</a></li>
@@ -52,7 +52,7 @@ Welcome! This is a curated collection of recipes that have been generated or enh
 
 <div class="category-section">
 
-### 🍹 Drinks
+### Drinks
 
 <ul class="recipe-list">
 <li><a href="drinks/hot-chocolate">Hot Chocolate</a></li>
