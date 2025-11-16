@@ -101,22 +101,22 @@ body {
 /* Header Styles */
 header {
   background-color: var(--bg-primary);
-  padding: 2rem 0;
-  margin-bottom: 3rem;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
   transition: background-color 0.3s ease;
 }
 
 @media (min-width: 768px) {
   header {
-    padding: 3rem 0;
-    margin-bottom: 4rem;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
   }
 }
 
 .header-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.5rem;
 }
 
@@ -126,9 +126,15 @@ header {
   }
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 header h1 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 400;
   color: var(--text-primary);
   letter-spacing: 0.05em;
@@ -138,22 +144,48 @@ header h1 {
 
 @media (min-width: 768px) {
   header h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
-header p {
-  margin: 0.5rem 0 0;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  font-weight: 400;
+/* GitHub Link */
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
-  header p {
-    margin: 0.75rem 0 0;
-    font-size: 1rem;
-  }
+.github-link:hover {
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  text-decoration: none;
+}
+
+.github-link:focus {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+.github-link:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.github-link:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+.github-link svg {
+  width: 24px;
+  height: 24px;
 }
 
 /* Theme Toggle */
@@ -546,31 +578,6 @@ hr {
   margin: 4rem 0;
 }
 
-/* Footer */
-footer {
-  margin-top: 6rem;
-  padding: 3rem 0;
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.875rem;
-  font-weight: 400;
-}
-
-@media (min-width: 768px) {
-  footer {
-    margin-top: 10rem;
-    padding: 4rem 0;
-  }
-}
-
-footer a {
-  color: var(--text-primary);
-  font-weight: 400;
-}
-
-footer a:hover {
-  color: var(--text-secondary);
-}
 
 /* Back to home link */
 .back-link {
