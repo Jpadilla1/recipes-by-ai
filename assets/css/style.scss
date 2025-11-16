@@ -329,15 +329,13 @@ li {
 
 /* Recipe Category Sections */
 .category-section {
-  margin: 4rem 0;
-  padding-top: 4rem;
-  border-top: 1px solid var(--border-color);
+  margin: 2rem 0;
+  padding-top: 0;
 }
 
 .category-section:first-of-type {
   margin-top: 0;
   padding-top: 0;
-  border-top: none;
 }
 
 .category-section:last-of-type {
@@ -346,14 +344,13 @@ li {
 
 @media (min-width: 768px) {
   .category-section {
-    margin: 6rem 0;
-    padding-top: 6rem;
+    margin: 3rem 0;
+    padding-top: 0;
   }
 
   .category-section:first-of-type {
     margin-top: 0;
     padding-top: 0;
-    border-top: none;
   }
 
   .category-section:last-of-type {
