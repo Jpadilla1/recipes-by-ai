@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 A curated collection of recipes generated or enhanced with AI.
 
 ## Recipe Categories
