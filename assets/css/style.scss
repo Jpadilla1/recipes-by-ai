@@ -100,10 +100,11 @@ body {
 
 /* Header Styles */
 header {
-  background-color: var(--bg-primary);
+  background-color: var(--bg-primary) !important;
   border-bottom: 1px solid var(--border-color);
   transition: background-color 0.3s ease, border-color 0.3s ease;
   width: 100%;
+  opacity: 1;
 }
 
 .header-content {
