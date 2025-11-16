@@ -279,17 +279,15 @@ h1 + p {
   line-height: 1.7;
 }
 
-/* Recipe metadata (prep time, cook time, etc.) - display vertically */
+/* Recipe metadata (prep time, cook time, etc.) - keep labels and values on same line */
 p strong {
-  display: block;
-  margin: 0.5rem 0;
+  display: inline;
 }
 
 /* Ensure metadata paragraphs have proper spacing */
 h1 + p strong,
 h1 + p + p strong {
-  display: block;
-  margin: 0.5rem 0;
+  display: inline;
 }
 
 h2 {
