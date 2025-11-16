@@ -10,7 +10,7 @@
 
 - **2 cups** whole milk (or your preferred milk)
 - **1/2 cup** heavy cream
-- **1/3 cup** high-quality dark chocolate (70% cocoa), finely chopped
+- **1/3 cup** high-quality dark chocolate (70% cocoa), finely chopped (Valrhona highly recommended)
 - **2 tbsp** unsweetened cocoa powder
 - **3 tbsp** granulated sugar (or maple syrup)
 - **1/4 tsp** ground cinnamon
