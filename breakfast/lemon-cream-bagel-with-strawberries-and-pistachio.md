@@ -1,10 +1,8 @@
 # Lemon Cream Bagel with Strawberries & Pistachio (Michelin-style)
 
-<div class="recipe-meta">
 **Prep Time:** 10 mins
 **Total Time:** 10 mins
 **Yield:** 1-2 servings
-</div>
 
 A soft, floral, and gently sweet open-faced bagel to make your morning feel like a 5-star brunch.
 

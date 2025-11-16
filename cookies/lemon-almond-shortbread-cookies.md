@@ -2,13 +2,11 @@
 
 **Credit:** <https://kristineskitchenblog.com/lemon-almond-shortbread-cookies-gluten-free/>
 
-<div class="recipe-meta">
 **Prep Time:** 10 mins
 **Cook Time:** 8 mins
 **Chilling Time:** 2 hrs
 **Total Time:** 2 hrs 18 mins
 **Yield:** 36 cookies
-</div>
 
 ## Ingredients
 

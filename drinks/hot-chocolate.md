@@ -1,10 +1,8 @@
 # Spiced Decadent Hot Chocolate
 
-<div class="recipe-meta">
 **Servings**: 2
 **Prep Time**: 5 minutes
 **Cook Time**: 10 minutes
-</div>
 
 ## Ingredients
 

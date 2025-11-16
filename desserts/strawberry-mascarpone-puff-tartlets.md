@@ -1,11 +1,9 @@
 # Strawberry Mascarpone Puff Tartlets (a.k.a. "Puff Piece")
 
-<div class="recipe-meta">
 **Prep Time:** 20 mins
 **Cook Time:** 18 mins
 **Total Time:** 45 mins
 **Yield:** 8-10 tartlets
-</div>
 
 A refined take on strawberries and cream, layered over crisp, golden pastry. Fresh, glossy, and balanced with just enough flair to feel restaurant-worthy — but still very doable at home.
 

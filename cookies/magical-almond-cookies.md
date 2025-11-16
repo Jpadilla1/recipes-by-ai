@@ -2,12 +2,10 @@
 
 **Credit:** <https://wellandfull.com/2015/10/magical-almond-cookies/>
 
-<div class="recipe-meta">
 **Prep Time:** 10 mins
 **Cook Time:** 10 mins
 **Total Time:** 20 mins
 **Yield:** Approximately 18-24 cookies
-</div>
 
 Chewy and sweet, these paleo almond cookies are completely addicting but deceptively healthy! Vegan, gluten-free, and paleo.
 
