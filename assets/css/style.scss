@@ -56,7 +56,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -260,9 +260,14 @@ h4 {
 
 p {
   margin: 1.5rem 0;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   color: var(--text-secondary);
   font-weight: 300;
+}
+
+strong, b {
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 /* Links */
@@ -300,7 +305,7 @@ ul, ol {
 
 li {
   margin: 1rem 0;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   color: var(--text-secondary);
   line-height: 1.8;
 }
@@ -351,13 +356,9 @@ li {
   border: none;
   border-bottom: 1px solid var(--border-color);
   border-radius: 0;
-  padding: 2rem 0;
+  padding: 0;
   transition: border-color 0.2s ease;
   margin: 0;
-}
-
-.recipe-list li:first-child {
-  padding-top: 0;
 }
 
 .recipe-list li:last-child {
@@ -375,6 +376,11 @@ li {
   text-decoration: none;
   display: block;
   letter-spacing: 0.02em;
+  padding: 2rem 0;
+}
+
+.recipe-list li:first-child a {
+  padding-top: 0;
 }
 
 .recipe-list a:hover {
