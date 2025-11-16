@@ -597,6 +597,7 @@ footer a:hover {
   background: var(--bg-secondary);
   border-color: var(--text-primary);
   transform: translateX(-4px);
+  text-decoration: none;
 }
 
 .back-link::before {
