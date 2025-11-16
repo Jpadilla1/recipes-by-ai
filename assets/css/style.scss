@@ -74,14 +74,14 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 680px;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
 
 @media (min-width: 768px) {
   .container {
-    padding: 5rem 3rem;
+    padding: 6rem 4rem;
   }
 }
 
@@ -89,8 +89,8 @@ body {
 header {
   background-color: var(--bg-primary);
   border-bottom: none;
-  padding: 4rem 0 2rem;
-  margin-bottom: 5rem;
+  padding: 5rem 0 3rem;
+  margin-bottom: 6rem;
   transition: background-color 0.3s ease;
 }
 
@@ -230,26 +230,26 @@ a:hover {
 
 /* Lists */
 ul, ol {
-  margin: 1.5rem 0;
-  padding-left: 1.5rem;
+  margin: 2rem 0;
+  padding-left: 2rem;
 }
 
 li {
-  margin: 0.75rem 0;
-  font-size: 1.0625rem;
+  margin: 1rem 0;
+  font-size: 1rem;
   color: var(--text-secondary);
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 /* Recipe Category Sections */
 .category-section {
-  margin: 5rem 0;
+  margin: 6rem 0;
 }
 
 .category-section h3 {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-weight: 400;
 }
 
@@ -265,13 +265,20 @@ li {
   border: none;
   border-bottom: 1px solid var(--border-color);
   border-radius: 0;
-  padding: 1.5rem 0;
-  transition: all 0.2s ease;
+  padding: 2rem 0;
+  transition: border-color 0.2s ease;
   margin: 0;
 }
 
+.recipe-list li:first-child {
+  padding-top: 0;
+}
+
+.recipe-list li:last-child {
+  border-bottom: none;
+}
+
 .recipe-list li:hover {
-  transform: none;
   border-color: var(--text-primary);
 }
 
@@ -286,6 +293,7 @@ li {
 
 .recipe-list a:hover {
   color: var(--text-secondary);
+  text-decoration: none;
 }
 
 /* Recipe Detail Page */
@@ -315,8 +323,8 @@ li {
 /* Code blocks */
 code {
   background: var(--bg-code);
-  padding: 0.2rem 0.4rem;
-  border-radius: 0.25rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0;
   font-size: 0.9em;
   font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
   color: var(--text-primary);
@@ -324,11 +332,11 @@ code {
 
 pre {
   background: var(--bg-code);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
+  padding: 2rem;
+  border-radius: 0;
   overflow-x: auto;
   border: 1px solid var(--border-color);
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 
 pre code {
@@ -342,20 +350,23 @@ pre code {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 2rem 0;
-  font-size: 1rem;
+  margin: 3rem 0;
+  font-size: 0.95rem;
 }
 
 th, td {
-  padding: 0.75rem 1rem;
+  padding: 1rem 1.5rem;
   text-align: left;
   border-bottom: 1px solid var(--border-color);
 }
 
 th {
-  background: var(--bg-secondary);
-  font-weight: 600;
+  background: transparent;
+  font-weight: 400;
   color: var(--text-primary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
 }
 
 td {
@@ -364,11 +375,11 @@ td {
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid var(--accent-color);
-  margin: 2rem 0;
-  padding: 1rem 1.5rem;
-  background: var(--bg-secondary);
-  border-radius: 0.5rem;
+  border-left: 1px solid var(--border-color);
+  margin: 3rem 0;
+  padding: 1.5rem 2rem;
+  background: transparent;
+  border-radius: 0;
   color: var(--text-secondary);
   font-style: italic;
 }
@@ -381,13 +392,13 @@ blockquote p {
 hr {
   border: none;
   border-top: 1px solid var(--border-color);
-  margin: 3rem 0;
+  margin: 4rem 0;
 }
 
 /* Footer */
 footer {
-  margin-top: 8rem;
-  padding: 3rem 0;
+  margin-top: 10rem;
+  padding: 4rem 0;
   border-top: 1px solid var(--border-color);
   text-align: center;
   color: var(--text-muted);
