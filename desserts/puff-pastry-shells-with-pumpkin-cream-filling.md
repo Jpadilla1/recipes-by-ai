@@ -41,7 +41,7 @@ Crispy puff pastry shells filled with spiced pumpkin cream for a delightful fall
 
 ### Puff Pastry Shells
 
-1. **Preheat oven:** Set to 375°F (conventional). Line a baking sheet with parchment.
+1. **Preheat oven:** Set to 375°F (190°C, conventional). Line a baking sheet with parchment.
 2. **Cut pastry:** On a lightly floured surface, roll the pastry slightly. Cut into 2.5–3 inch squares or rounds.
 3. **Score & dock:** Lightly score a smaller square inside each cut piece, about ¼" from the edge. Use a fork to dock the inner square.
 4. **Egg wash:** Beat the egg with 1 tablespoon water. Brush the outer border only.

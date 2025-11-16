@@ -8,6 +8,8 @@
 **Total Time:** 2 hrs 18 mins
 **Yield:** 36 cookies
 
+Delicate, buttery shortbread cookies made with almond flour and bright lemon zest. Gluten-free and perfectly crisp on the edges with a tender center.
+
 ## Ingredients
 
 - 6 tablespoons (85 grams) unsalted butter, softened slightly but still cool
