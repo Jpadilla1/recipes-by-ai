@@ -1,6 +1,6 @@
 # Recipes by AI
 
-A curated collection of recipes generated and modified using AI (ChatGPT), with original recipe credits where applicable.
+A curated collection of recipes generated and modified using AI, with original recipe credits where applicable.
 
 ## 🌐 View the Recipes
 
@@ -9,8 +9,8 @@ Visit the live site: **[https://jpadilla1.github.io/recipes-by-ai/](https://jpad
 ## 📖 About
 
 This repository contains a collection of recipes that have been either:
-- Generated using ChatGPT
-- Found online and modified with ChatGPT assistance
+- Generated using AI
+- Found online and modified with AI assistance
 
 All recipes include proper credit links to original sources where applicable.
 
