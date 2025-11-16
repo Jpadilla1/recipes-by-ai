@@ -18,8 +18,9 @@
   --link-hover: #525252;
 }
 
+/* Dark mode - via media query or data-theme attribute */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     /* Minimalistic dark mode */
     --bg-primary: #0a0a0a;
     --bg-secondary: #171717;
@@ -33,6 +34,21 @@
     --link-color: #fafafa;
     --link-hover: #d4d4d4;
   }
+}
+
+:root[data-theme="dark"] {
+  /* Minimalistic dark mode */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #171717;
+  --bg-code: #262626;
+  --text-primary: #fafafa;
+  --text-secondary: #a3a3a3;
+  --text-muted: #737373;
+  --border-color: #262626;
+  --accent-color: #fafafa;
+  --accent-hover: #d4d4d4;
+  --link-color: #fafafa;
+  --link-hover: #d4d4d4;
 }
 
 * {
@@ -78,6 +94,13 @@ header {
   transition: background-color 0.3s ease;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
 header h1 {
   margin: 0;
   font-size: 1.5rem;
@@ -98,6 +121,56 @@ header p {
   font-size: 1rem;
   color: var(--text-muted);
   font-weight: 300;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  border-color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+.theme-toggle-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--text-primary);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+:root[data-theme="dark"] .theme-toggle-icon {
+  background: transparent;
+  box-shadow: inset 8px -8px 0 0 var(--text-primary);
+  transform: scale(0.8);
+}
+
+:root[data-theme="light"] .theme-toggle-icon {
+  background: var(--text-primary);
+  box-shadow:
+    0 -8px 0 0 var(--text-primary),
+    0 8px 0 0 var(--text-primary),
+    8px 0 0 0 var(--text-primary),
+    -8px 0 0 0 var(--text-primary),
+    6px 6px 0 0 var(--text-primary),
+    -6px -6px 0 0 var(--text-primary),
+    6px -6px 0 0 var(--text-primary),
+    -6px 6px 0 0 var(--text-primary);
+  transform: scale(0.6);
 }
 
 /* Typography */

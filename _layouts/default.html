@@ -7,12 +7,28 @@
   <meta name="color-scheme" content="light dark">
   <title>{% if page.title %}{{ page.title }} | {% endif %}Recipes by AI</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    // Initialize theme before page renders to prevent flash
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>Recipes by AI</h1>
-      <p>A collection of AI-enhanced recipes</p>
+      <div class="header-content">
+        <div>
+          <h1>Recipes by AI</h1>
+          <p>A collection of AI-enhanced recipes</p>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle-icon"></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -29,5 +45,26 @@
       <p><a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">View on GitHub</a></p>
     </div>
   </footer>
+
+  <script>
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const htmlElement = document.documentElement;
+
+    function getTheme() {
+      return htmlElement.getAttribute('data-theme') || 'light';
+    }
+
+    function setTheme(theme) {
+      htmlElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = getTheme();
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      setTheme(newTheme);
+    });
+  </script>
 </body>
 </html>
