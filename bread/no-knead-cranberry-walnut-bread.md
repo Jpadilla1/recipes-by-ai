@@ -2,11 +2,13 @@
 
 **Credit:** <https://cookingformysoul.com/no-knead-cranberry-walnut-bread/>
 
+<div class="recipe-meta">
 **Prep Time:** 15 mins
 **Rise Time:** 18 hrs 30 mins
 **Cook Time:** 40 mins
 **Total Time:** 19 hrs 25 mins
 **Yield:** 1 round loaf (about 12 slices)
+</div>
 
 A rustic no-knead bread studded with cranberries and walnuts, with a hint of orange zest. Perfect for the holidays or everyday enjoyment.
 

@@ -1,8 +1,10 @@
 # Orange Strawberry Sunset Mocktail
 
+<div class="recipe-meta">
 **Prep Time:** 5 mins
 **Total Time:** 5 mins
 **Yield:** 2 servings
+</div>
 
 A refreshing layered mocktail with vibrant strawberry and orange flavors, perfect for any occasion.
 

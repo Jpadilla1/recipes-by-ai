@@ -1,9 +1,11 @@
 # Honey Baked Pears
 
+<div class="recipe-meta">
 **Prep Time:** 10 mins
 **Cook Time:** 30 mins
 **Total Time:** 40 mins
 **Yield:** 4 servings
+</div>
 
 Simple and elegant baked pears with honey, butter, and warm spices - perfect served with yogurt, whipped cream, or ice cream.
 

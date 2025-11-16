@@ -2,11 +2,13 @@
 
 **Credit:** <https://www.jocooks.com/recipes/no-knead-cast-iron-whole-wheat-bread/>
 
+<div class="recipe-meta">
 **Prep Time:** 5 mins
 **Rest Time:** 12-18 hrs
 **Cook Time:** 45 mins
 **Total Time:** 12-18 hrs 50 mins
 **Yield:** 1 loaf (approximately 10 slices)
+</div>
 
 A simple, rustic whole wheat bread baked in a Dutch oven that requires no kneading and minimal effort.
 
