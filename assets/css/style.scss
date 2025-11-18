@@ -359,17 +359,6 @@ h1 + p {
   line-height: 1.7;
 }
 
-/* Recipe metadata (prep time, cook time, etc.) - keep labels and values on same line */
-p strong {
-  display: inline;
-}
-
-/* Ensure metadata paragraphs have proper spacing */
-h1 + p strong,
-h1 + p + p strong {
-  display: inline;
-}
-
 h2 {
   font-size: 1.5rem;
   margin-top: 4rem;
