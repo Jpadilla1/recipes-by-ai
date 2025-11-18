@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Honey Baked Pears
 
 **Prep Time:** 10 mins

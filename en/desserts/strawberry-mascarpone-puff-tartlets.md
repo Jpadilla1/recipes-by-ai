@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Strawberry Mascarpone Puff Tartlets (a.k.a. "Puff Piece")
 
 **Prep Time:** 20 mins

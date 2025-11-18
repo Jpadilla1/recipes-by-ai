@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Magical Almond Cookies
 
 **Credit:** <https://wellandfull.com/2015/10/magical-almond-cookies/>

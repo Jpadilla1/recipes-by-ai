@@ -22,11 +22,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Include files
-include:
-  - breakfast/avocado-toast.md
-  - cookies/gingerbread-cheesecake.md
-  - drinks/hot-chocolate.md
+# Languages
+languages: ["en", "es"]
+default_language: "en"
 
 # Exclude from processing
 exclude:

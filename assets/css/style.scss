@@ -251,6 +251,50 @@ header h1 {
   transform: scale(0.6);
 }
 
+/* Language Toggle */
+.language-toggle {
+  background: transparent;
+  border: 1px solid var(--text-secondary);
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.language-toggle:hover {
+  border-color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+.language-toggle:focus {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+.language-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.language-toggle:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+.language-toggle-icon {
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;

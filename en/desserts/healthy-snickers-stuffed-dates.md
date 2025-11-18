@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Healthy "Snickers" Stuffed Dates (PB, Pecans, Dark Chocolate, Sea Salt)
 
 **Prep Time:** 15 mins

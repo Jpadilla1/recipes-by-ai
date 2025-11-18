@@ -86,6 +86,98 @@ Current categories:
 - [Lemon Almond Flour Shortbread Cookies](cookies/lemon-almond-shortbread-cookies.md)
 ```
 
+## Multilingual Support
+
+This site supports both English and Spanish. All content must be provided in both languages.
+
+### Language Directory Structure
+
+Recipes are organized by language prefix:
+```
+/en/                  # English recipes
+  breakfast/
+  bread/
+  cookies/
+  ...
+  index.md           # English homepage
+/es/                  # Spanish recipes
+  breakfast/
+  bread/
+  cookies/
+  ...
+  index.md           # Spanish homepage
+```
+
+### When Adding a New Recipe
+
+You MUST create the recipe in BOTH languages:
+
+1. **Create English Version** (`/en/category/recipe-name.md`)
+   - Include `lang: en` in the front matter
+   - Write all content in English
+
+2. **Create Spanish Version** (`/es/category/recipe-name.md`)
+   - Include `lang: es` in the front matter
+   - Translate ALL content to Spanish:
+     - Title
+     - Description
+     - Time labels (use translations from `_data/translations.yml`)
+     - Ingredients
+     - Instructions
+     - Notes and tips
+
+3. **Update BOTH Index Pages**
+   - Add recipe link to `/en/index.md`
+   - Add translated recipe link to `/es/index.md`
+   - Use translated category names and recipe titles in Spanish index
+
+### Translation Resources
+
+- UI translations are stored in `_data/translations.yml`
+- Common labels:
+  - Prep Time → Tiempo de Preparación
+  - Cook Time → Tiempo de Cocción
+  - Total Time → Tiempo Total
+  - Yield → Porciones
+  - Ingredients → Ingredientes
+  - Instructions → Instrucciones
+  - Notes → Notas
+  - Storage → Almacenamiento
+
+### Language Toggle
+
+- Users can switch languages using the language toggle button in the header
+- The language toggle shows the current language (EN/ES)
+- Language preference is preserved via URL structure
+
+### Example Multilingual Recipe
+
+English (`/en/breakfast/pancakes.md`):
+```markdown
+---
+lang: en
+---
+
+# Fluffy Pancakes
+
+**Prep Time:** 10 mins
+**Cook Time:** 15 mins
+...
+```
+
+Spanish (`/es/breakfast/pancakes.md`):
+```markdown
+---
+lang: es
+---
+
+# Panqueques Esponjosos
+
+**Tiempo de Preparación:** 10 mins
+**Tiempo de Cocción:** 15 mins
+...
+```
+
 ## Tips
 
 - Include pro tips, storage instructions, or variations in separate subsections

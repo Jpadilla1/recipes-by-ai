@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Spiced Decadent Hot Chocolate
 
 **Prep Time:** 5 mins

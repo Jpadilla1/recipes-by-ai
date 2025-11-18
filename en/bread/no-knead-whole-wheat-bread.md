@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # No-Knead Whole Wheat Bread (Dutch Oven)
 
 **Credit:** <https://www.jocooks.com/recipes/no-knead-cast-iron-whole-wheat-bread/>
