@@ -28,6 +28,10 @@ include:
   - cookies/gingerbread-cheesecake.md
   - drinks/hot-chocolate.md
 
+# Languages
+languages: ["en", "es"]
+default_language: "en"
+
 # Exclude from processing
 exclude:
   - README.md

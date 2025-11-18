@@ -1,0 +1,87 @@
+en:
+  site_title: "Recipes by AI"
+  site_description: "A curated collection of recipes generated or enhanced with AI."
+  meta_description: "A collection of AI-enhanced recipes"
+  all_recipes: "All Recipes"
+  recipe_categories: "Recipe Categories"
+  view_on_github: "View on GitHub"
+  toggle_dark_mode: "Toggle dark mode"
+  switch_to_dark_mode: "Switch to dark mode"
+  switch_to_light_mode: "Switch to light mode"
+  switch_language: "Switch language"
+  switch_to_spanish: "Switch to Spanish"
+  switch_to_english: "Switch to English"
+
+  # Category names
+  categories:
+    breakfast: "Breakfast"
+    bread: "Bread"
+    cookies: "Cookies"
+    desserts: "Desserts"
+    drinks: "Drinks"
+
+  # Recipe metadata labels
+  prep_time: "Prep Time:"
+  cook_time: "Cook Time:"
+  total_time: "Total Time:"
+  yield: "Yield:"
+  servings: "servings"
+
+  # Recipe sections
+  ingredients: "Ingredients"
+  instructions: "Instructions"
+  notes: "Notes"
+  storage: "Storage"
+  pro_tips: "Pro Tips"
+
+  # Time units
+  mins: "mins"
+  min: "min"
+  hours: "hours"
+  hour: "hour"
+  hrs: "hrs"
+  hr: "hr"
+
+es:
+  site_title: "Recetas por IA"
+  site_description: "Una colección curada de recetas generadas o mejoradas con IA."
+  meta_description: "Una colección de recetas mejoradas con IA"
+  all_recipes: "Todas las Recetas"
+  recipe_categories: "Categorías de Recetas"
+  view_on_github: "Ver en GitHub"
+  toggle_dark_mode: "Alternar modo oscuro"
+  switch_to_dark_mode: "Cambiar a modo oscuro"
+  switch_to_light_mode: "Cambiar a modo claro"
+  switch_language: "Cambiar idioma"
+  switch_to_spanish: "Cambiar a español"
+  switch_to_english: "Cambiar a inglés"
+
+  # Category names
+  categories:
+    breakfast: "Desayuno"
+    bread: "Pan"
+    cookies: "Galletas"
+    desserts: "Postres"
+    drinks: "Bebidas"
+
+  # Recipe metadata labels
+  prep_time: "Tiempo de Preparación:"
+  cook_time: "Tiempo de Cocción:"
+  total_time: "Tiempo Total:"
+  yield: "Porciones:"
+  servings: "porciones"
+
+  # Recipe sections
+  ingredients: "Ingredientes"
+  instructions: "Instrucciones"
+  notes: "Notas"
+  storage: "Almacenamiento"
+  pro_tips: "Consejos"
+
+  # Time units
+  mins: "mins"
+  min: "min"
+  hours: "horas"
+  hour: "hora"
+  hrs: "hrs"
+  hr: "hr"
