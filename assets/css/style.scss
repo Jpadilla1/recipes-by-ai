@@ -17,6 +17,8 @@
   --link-color: #171717;
   --link-hover: #525252;
   --recipe-card-bg: rgba(255, 255, 255, 0.3);
+  --recipe-link-color: #5a5855;
+  --recipe-link-hover: #3d3b39;
 
   /* Japanese paper texture for light mode - subtle organic fibers */
   --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' seed='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23paper)' opacity='0.09'/%3E%3C/svg%3E\")"};
@@ -38,6 +40,8 @@
     --link-color: #fafafa;
     --link-hover: #d4d4d4;
     --recipe-card-bg: rgba(255, 255, 255, 0.02);
+    --recipe-link-color: #999999;
+    --recipe-link-hover: #c2c2c2;
 
     /* Fine grain texture for dark mode - more subtle than paper */
     --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' seed='5'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23grain)' opacity='0.015'/%3E%3C/svg%3E\")"};
@@ -58,6 +62,8 @@
   --link-color: #fafafa;
   --link-hover: #d4d4d4;
   --recipe-card-bg: rgba(255, 255, 255, 0.02);
+  --recipe-link-color: #999999;
+  --recipe-link-hover: #c2c2c2;
 
   /* Fine grain texture for dark mode - more subtle than paper */
   --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' seed='5'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23grain)' opacity='0.015'/%3E%3C/svg%3E\")"};
@@ -518,7 +524,7 @@ li {
 .recipe-list a {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--text-primary);
+  color: var(--recipe-link-color);
   text-decoration: none;
   display: block;
   letter-spacing: 0.01em;
@@ -530,7 +536,7 @@ li {
 }
 
 .recipe-list a:hover {
-  color: var(--text-primary);
+  color: var(--recipe-link-hover);
   text-decoration: none;
 }
 
@@ -546,7 +552,7 @@ li {
 .recipe-list a:focus-visible {
   outline: 2px solid var(--text-primary);
   outline-offset: 4px;
-  color: var(--text-secondary);
+  color: var(--recipe-link-hover);
 }
 
 /* Code blocks */
