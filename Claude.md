@@ -53,10 +53,14 @@ Storage instructions if applicable.
 
 ## Category Structure
 
-Current categories:
-- `breakfast/`
-- `cookies/`
-- `drinks/`
+Current categories (5 total, each with recipes in both EN and ES):
+- `breakfast/` - 3 recipes per language (6 total)
+- `bread/` - 2 recipes per language (4 total)
+- `cookies/` - 3 recipes per language (6 total)
+- `desserts/` - 4 recipes per language (8 total)
+- `drinks/` - 2 recipes per language (4 total)
+
+**Total recipes:** 14 per language, 28 total across both English and Spanish
 
 ### When Adding a Recipe
 
@@ -144,11 +148,15 @@ You MUST create the recipe in BOTH languages:
   - Notes → Notas
   - Storage → Almacenamiento
 
-### Language Toggle
+### Language Toggle & Auto-Detection
 
-- Users can switch languages using the language toggle button in the header
-- The language toggle shows the current language (EN/ES)
-- Language preference is preserved via URL structure
+- **Auto-detection:** Root `index.md` uses JavaScript to detect browser language (`navigator.language`)
+- **Automatic redirect:** Users are redirected to `/en/` or `/es/` based on browser preference
+- **Manual toggle:** Language toggle button in header switches between EN/ES
+- **URL-based persistence:** Language is part of URL structure (`/en/category/recipe.md` vs `/es/category/recipe.md`)
+- **JavaScript fallback:** Works without JavaScript via noscript links
+- **Toggle display:** Shows current language code (EN or ES)
+- **Seamless switching:** Replaces `/en/` with `/es/` in URL path (and vice versa)
 
 ### Example Multilingual Recipe
 
@@ -202,6 +210,63 @@ lang: es
 
 **Remember:** Never skip updating `index.md` - the recipe won't appear on GitHub Pages without it!
 
+## Project Overview
+
+### Technologies & Stack
+
+This is a static website built with:
+- **Static Site Generator:** Jekyll 4.x
+- **Theme:** jekyll-theme-minimal
+- **Styling:** SCSS (compiled to CSS) - 681 lines in `assets/css/style.scss`
+- **Markdown Parser:** kramdown with GFM (GitHub Flavored Markdown)
+- **Hosting:** GitHub Pages
+- **Languages Supported:** English (EN) and Spanish (ES)
+
+**Key Features:**
+- Multilingual support with automatic browser language detection
+- Dark/Light mode with user preference persistence
+- Responsive design (mobile-first, 768px breakpoint)
+- WCAG AA accessibility compliant
+- No external dependencies (no Node.js/npm required)
+
+### Project Structure
+
+```
+recipes-by-ai/
+├── _config.yml              # Jekyll configuration
+├── _data/
+│   └── translations.yml     # EN/ES UI translations
+├── _layouts/
+│   └── default.html         # Main HTML template (137 lines)
+├── assets/
+│   └── css/
+│       └── style.scss       # All styling (681 lines)
+├── en/                      # English content (14 recipes)
+│   ├── index.md            # English homepage
+│   ├── breakfast/          # 3 recipes
+│   ├── bread/              # 2 recipes
+│   ├── cookies/            # 3 recipes
+│   ├── desserts/           # 4 recipes
+│   └── drinks/             # 2 recipes
+├── es/                      # Spanish content (14 recipes)
+│   ├── index.md            # Spanish homepage
+│   ├── breakfast/          # 3 recipes
+│   ├── bread/              # 2 recipes
+│   ├── cookies/            # 3 recipes
+│   ├── desserts/           # 4 recipes
+│   └── drinks/             # 2 recipes
+├── index.md                 # Root language redirect page
+├── Claude.md               # This file - development guidelines
+└── README.md               # Project overview
+```
+
+### Build & Deployment
+
+- **Build Process:** Automatic via GitHub Pages on push to main branch
+- **Local Development:** Run `jekyll serve` (no build tools needed)
+- **SCSS Compilation:** Handled automatically by Jekyll
+- **Live Site:** https://jpadilla1.github.io/recipes-by-ai/
+
 ## Design and UX Guidelines
 
 This repository follows a minimalistic, accessibility-first design philosophy. When making changes to the UI or layout, adhere to these practices:
@@ -209,37 +274,72 @@ This repository follows a minimalistic, accessibility-first design philosophy. W
 ### Design Philosophy
 
 - **Minimalistic aesthetic**: Clean, neutral color palette with subtle borders and no rounded corners
+- **Japanese paper aesthetic**: Washi paper texture background using SVG-based noise filters for organic feel
 - **Typography-focused**: Let content breathe with generous spacing and readable font sizes
 - **Performance-first**: Use system fonts, CSS custom properties, and efficient rendering
-- **Accessibility-first**: WCAG compliant with keyboard navigation, focus states, and reduced motion support
+- **Accessibility-first**: WCAG AA compliant with keyboard navigation, focus states, and reduced motion support
 
 ### Core Design Principles
 
 1. **Color System**
    - Use CSS custom properties defined in `:root` for all colors
    - Maintain semantic naming: `--bg-primary`, `--text-primary`, `--border-color`, etc.
-   - Keep the minimalistic neutral palette (light grays and blacks)
+   - **Light Mode Colors:**
+     - `--bg-primary: #F8F6F0` - Warm off-white background
+     - `--bg-secondary: #F4F1E8` - Slightly darker off-white
+     - `--text-primary: #2B2927` - Dark gray-brown
+     - `--text-secondary: #525252` - Medium gray
+     - `--text-muted: #737373` - Muted gray
+     - `--border-color: #E0DDD5` - Subtle borders
+     - `--link-color: #171717` - Dark links
+     - `--recipe-link-color: #3d3b39` - Recipe-specific color
+   - **Dark Mode Colors:**
+     - `--bg-primary: #0a0a0a` - Near black
+     - `--bg-secondary: #171717` - Dark gray
+     - `--text-primary: #fafafa` - Near white
+     - `--text-secondary: #a3a3a3` - Medium gray
+     - `--border-color: #262626` - Subtle borders
+     - `--link-color: #fafafa` - Light links
+   - **Background Textures:**
+     - Light mode: Japanese paper texture (SVG filter with fractal noise, opacity: 0.09)
+     - Dark mode: Fine grain texture (subtler, opacity: 0.015)
+     - Removed for users with `prefers-contrast: more` preference
 
 2. **Typography**
    - Base font size: 18px for improved readability
    - System font stack: `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif`
-   - Line height: 1.8 for body text, 1.4 for headings
-   - Font weights: 300 (body), 400 (headings), 600 (bold)
-   - Letter-spacing: 0.02em (default), 0.05-0.1em (uppercase headings)
+   - Line height: 1.75 for body text, 1.4 for headings
+   - Font weights: 300 (light for header title), 400 (regular), 500 (medium for recipe headings), 600 (bold)
+   - H1: 2rem (32px), font-weight: 500
+   - H2: 1.5rem (24px), font-weight: 500, margin-top: 4rem
+   - H3: 1.125rem (18px), uppercase, letter-spacing: 0.1em, font-weight: 500
+   - Body: 1.0625rem (17px)
    - Use uppercase with letter-spacing for section headings (h3) and labels
 
 3. **Spacing and Layout**
-   - Max content width: 680px
-   - Mobile padding: 2-3rem, Desktop: 4-6rem
-   - Generous margins between sections (4-6rem)
+   - Max content width: 884px (centered with auto margins)
+   - Mobile padding: 3rem 2rem
+   - Desktop padding: 6rem 4rem
+   - Category section margins: 2rem 0 (mobile), 3rem 0 (desktop)
+   - Generous margins between sections (H2 headings: margin-top 4rem)
    - Consistent use of rem units for scalability
 
 4. **Interactive Elements**
-   - Full-width clickable areas for recipe links (padding: 2rem 0)
-   - Border-bottom separators between list items
-   - Hover states change border/text color, not background
+   - Full-width clickable areas for recipe links (padding: 1.5rem vertical, 1rem left on mobile)
+   - Border-bottom separators between list items (1px solid var(--border-color))
+   - Hover states: Shift right with background color change for recipe links
    - Minimum touch target: 44x44px (especially for buttons)
-   - Smooth transitions (0.2-0.3s ease) for color changes
+   - Smooth transitions (0.2s ease) for color, border, background changes
+   - Focus states: 2px solid outline with 2-4px offset
+
+5. **Sticky Header**
+   - Position: sticky, top: 0, z-index: 100
+   - Background color matches page background for visual separation
+   - Contains site title, GitHub link, language toggle (EN/ES), and theme toggle
+   - Mobile (< 768px): h1 font-size 0.75rem, padding 0.5rem 2rem
+   - Desktop (≥ 768px): h1 font-size 0.875rem, padding 0.5rem 4rem
+   - All header buttons are 44x44px for accessibility
+   - Border-bottom for visual separation from content
 
 ### Dark Mode Implementation
 
@@ -274,9 +374,11 @@ When adding or modifying UI elements:
    - Proper `<main>`, `<header>`, `<footer>` landmarks
 
 5. **Color Contrast**
-   - Maintain WCAG AA standards minimum
-   - Test both light and dark modes
+   - Maintain WCAG AA standards minimum (4.5:1 for normal text, 3:1 for large text)
+   - Recipe links use enhanced contrast colors (`--recipe-link-color: #3d3b39` in light mode)
+   - Test both light and dark modes for contrast compliance
    - Don't rely on color alone to convey information
+   - Recent improvements: Multiple iterations to ensure recipe link contrast meets WCAG AA
 
 ### Responsive Design
 
@@ -290,12 +392,15 @@ When adding or modifying UI elements:
 When adding recipe categories or lists:
 
 ```css
-.category-section - Wraps each category with proper spacing
-.category-section h3 - Small, uppercase, muted section titles
-.recipe-list - Grid layout with no gaps
-.recipe-list li - Border-bottom separator, full-width clickable area
-.recipe-list a - Block display with generous padding (2rem vertical)
+.category-section - Wraps each category with proper spacing (2-3rem margins)
+.category-section h3 - Small (0.875rem), uppercase, muted (opacity: 0.7) section titles
+.recipe-list - List with no gaps between items
+.recipe-list li - Border-bottom separator (1px solid var(--border-color)), full-width clickable area
+.recipe-list a - Block display with padding (1.5rem vertical, 1rem left on mobile)
+.recipe-list a:hover - Shifts right (translateX) with background color change
 ```
+
+**Important:** Recipe links have enhanced contrast ratios for WCAG AA compliance in both light and dark modes.
 
 ### Performance Considerations
 
@@ -311,8 +416,48 @@ When writing HTML/CSS:
 - Use CSS custom properties for all theme-related values
 - Follow BEM-like naming for component classes (`.category-section`, `.recipe-list`)
 - No inline styles (except critical theme initialization)
-- Keep border-radius at 0 for minimalistic aesthetic
+- Keep border-radius at 0 for minimalistic aesthetic (except circular buttons: 50%)
 - Prefer subtle borders over background color changes
 - Use semantic HTML5 elements
+
+## Recent Development History
+
+### Recent Improvements (Last 20+ Commits)
+
+1. **Accessibility Enhancements**
+   - Fixed recipe link contrast ratios for WCAG AA compliance
+   - Multiple iterations to ensure optimal contrast in both light and dark modes
+   - Enhanced focus states with proper keyboard navigation
+
+2. **Japanese Design Aesthetic**
+   - Implemented washi paper texture background using SVG filters
+   - Added organic fiber texture for light mode (fractal noise, opacity: 0.09)
+   - Fine grain texture for dark mode (opacity: 0.015)
+   - Fixed GitHub Pages SCSS compilation with inline data URIs
+
+3. **Layout & Scroll Improvements**
+   - Fixed category header z-index conflicts during page scroll
+   - Ensured sticky header stays on top without overlap issues
+   - Added left padding to recipe link text for improved readability
+
+4. **Multilingual Feature Expansion**
+   - Complete English/Spanish parity (14 recipes in each language)
+   - Language auto-detection with browser preference
+   - Language toggle functionality with localStorage persistence
+   - Standardized front matter with `lang: en/es` across all recipes
+
+5. **Header & Navigation Refinements**
+   - Solid header background with border-bottom separator
+   - Full-width horizontal navigation
+   - Compact header design optimized for mobile and desktop
+   - 44x44px touch-friendly icon buttons
+
+### Development Pattern
+
+- **Branch naming:** `claude/[feature-description]-[ID]`
+- **Workflow:** Feature branches with pull request-based merges
+- **Commit style:** Descriptive, focused commits
+- **Testing:** Manual testing across browsers and devices
+- **Accessibility:** Regular WCAG compliance checks
 
 ---
