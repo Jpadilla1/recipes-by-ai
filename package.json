@@ -1,0 +1,23 @@
+{
+  "name": "recipes-by-ai",
+  "version": "1.0.0",
+  "description": "A curated collection of AI-enhanced recipes",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint '**/*.md' --ignore node_modules --ignore _site",
+    "lint:fix": "markdownlint '**/*.md' --ignore node_modules --ignore _site --fix",
+    "test:links": "find . -name '*.md' -not -path './node_modules/*' -not -path './_site/*' -exec markdown-link-check {} \\;",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0",
+    "markdown-link-check": "^3.12.1"
+  },
+  "keywords": [
+    "recipes",
+    "jekyll",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC"
+}
