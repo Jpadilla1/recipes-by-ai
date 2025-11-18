@@ -16,9 +16,10 @@
   --accent-hover: #404040;
   --link-color: #171717;
   --link-hover: #525252;
+  --recipe-card-bg: rgba(255, 255, 255, 0.3);
 
   /* Japanese paper texture for light mode - subtle organic fibers */
-  --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' seed='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23paper)' opacity='0.04'/%3E%3C/svg%3E\")"};
+  --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' seed='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23paper)' opacity='0.06'/%3E%3C/svg%3E\")"};
 }
 
 /* Dark mode - via media query or data-theme attribute */
@@ -36,6 +37,7 @@
     --accent-hover: #d4d4d4;
     --link-color: #fafafa;
     --link-hover: #d4d4d4;
+    --recipe-card-bg: rgba(255, 255, 255, 0.02);
 
     /* Fine grain texture for dark mode - more subtle than paper */
     --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' seed='5'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23grain)' opacity='0.015'/%3E%3C/svg%3E\")"};
@@ -55,6 +57,7 @@
   --accent-hover: #d4d4d4;
   --link-color: #fafafa;
   --link-hover: #d4d4d4;
+  --recipe-card-bg: rgba(255, 255, 255, 0.02);
 
   /* Fine grain texture for dark mode - more subtle than paper */
   --bg-texture: #{"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' seed='5'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23grain)' opacity='0.015'/%3E%3C/svg%3E\")"};
@@ -109,6 +112,8 @@ body {
   max-width: 884px;
   margin: 0 auto;
   padding: 3rem 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
 }
 
 @media (min-width: 768px) {
@@ -478,7 +483,7 @@ li {
 }
 
 .recipe-list li {
-  background: transparent;
+  background: var(--recipe-card-bg);
   border: none;
   border-bottom: 1px solid var(--border-color);
   border-radius: 0;
