@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Cranberry Walnut Bread (No-Knead)
 
 **Credit:** <https://cookingformysoul.com/no-knead-cranberry-walnut-bread/>

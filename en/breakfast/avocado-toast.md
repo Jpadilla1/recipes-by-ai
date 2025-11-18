@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Avocado Toast
 
 **Prep Time:** 15 mins

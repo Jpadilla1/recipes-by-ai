@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Puff Pastry Shells with Pumpkin Cream Filling
 
 **Prep Time:** 25 mins

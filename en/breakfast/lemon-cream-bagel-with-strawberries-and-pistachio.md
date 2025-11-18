@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Lemon Cream Bagel with Strawberries & Pistachio (Michelin-style)
 
 **Prep Time:** 10 mins
