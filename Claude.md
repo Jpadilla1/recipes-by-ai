@@ -2,6 +2,20 @@
 
 This file contains guidelines for adding and managing recipes in this repository.
 
+---
+
+## ⚠️ CRITICAL REMINDER ⚠️
+
+**ALWAYS UPDATE THE INDEX FILES WHEN ADDING A NEW RECIPE!**
+
+When you add a new recipe, you MUST update BOTH index files:
+- `/en/index.md` - Add English recipe link in alphabetical order
+- `/es/index.md` - Add Spanish recipe link (matching English order, NOT alphabetically sorted in Spanish)
+
+**The recipe will not appear on the website without this step!**
+
+---
+
 ## Recipe Format
 
 All recipes must follow this standard format:
@@ -57,10 +71,10 @@ Current categories (5 total, each with recipes in both EN and ES):
 - `breakfast/` - 3 recipes per language (6 total)
 - `bread/` - 2 recipes per language (4 total)
 - `cookies/` - 3 recipes per language (6 total)
-- `desserts/` - 4 recipes per language (8 total)
+- `desserts/` - 5 recipes per language (10 total)
 - `drinks/` - 2 recipes per language (4 total)
 
-**Total recipes:** 14 per language, 28 total across both English and Spanish
+**Total recipes:** 15 per language, 30 total across both English and Spanish
 
 ### When Adding a Recipe
 
@@ -241,19 +255,19 @@ recipes-by-ai/
 ├── assets/
 │   └── css/
 │       └── style.scss       # All styling (681 lines)
-├── en/                      # English content (14 recipes)
+├── en/                      # English content (15 recipes)
 │   ├── index.md            # English homepage
 │   ├── breakfast/          # 3 recipes
 │   ├── bread/              # 2 recipes
 │   ├── cookies/            # 3 recipes
-│   ├── desserts/           # 4 recipes
+│   ├── desserts/           # 5 recipes
 │   └── drinks/             # 2 recipes
-├── es/                      # Spanish content (14 recipes)
+├── es/                      # Spanish content (15 recipes)
 │   ├── index.md            # Spanish homepage
 │   ├── breakfast/          # 3 recipes
 │   ├── bread/              # 2 recipes
 │   ├── cookies/            # 3 recipes
-│   ├── desserts/           # 4 recipes
+│   ├── desserts/           # 5 recipes
 │   └── drinks/             # 2 recipes
 ├── index.md                 # Root language redirect page
 ├── Claude.md               # This file - development guidelines
