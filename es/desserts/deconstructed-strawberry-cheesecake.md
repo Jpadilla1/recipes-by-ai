@@ -44,3 +44,4 @@ Una versión más ligera y saludable de la tarta de queso clásica usando yogur 
 - Este postre queda del lado más suave debido a la base de yogur y queso crema
 - Siéntete libre de poner en capas las galletas y las fresas para una presentación estilo parfait más tradicional
 - Las hojuelas de coco tostadas agregan un toque tropical agradable si lo deseas
+- Si necesitas un poco más de dulzura, agrega un toque de jarabe de arce o miel al gusto

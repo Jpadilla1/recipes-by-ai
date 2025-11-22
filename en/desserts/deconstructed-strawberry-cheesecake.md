@@ -44,3 +44,4 @@ A lighter, healthier take on classic cheesecake using Greek yogurt and cream che
 - This dessert is on the softer side due to the yogurt and cream cheese base
 - Feel free to layer the crackers and strawberries throughout for a more traditional parfait-style presentation
 - Toasted coconut flakes add a nice tropical touch if desired
+- If you need a little bit of sweetness, add a touch of maple syrup or honey to taste
