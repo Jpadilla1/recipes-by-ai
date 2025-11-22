@@ -47,6 +47,7 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Postres</h3>
 
 <ul class="recipe-list">
+<li><a href="desserts/deconstructed-strawberry-cheesecake">Tarta de Queso Deconstruida de Fresa</a></li>
 <li><a href="desserts/healthy-snickers-stuffed-dates">Dátiles Rellenos Estilo "Snickers" Saludables</a></li>
 <li><a href="desserts/honey-baked-pears">Peras Horneadas con Miel</a></li>
 <li><a href="desserts/puff-pastry-shells-with-pumpkin-cream-filling">Conchas de Hojaldre con Relleno de Crema de Calabaza</a></li>
