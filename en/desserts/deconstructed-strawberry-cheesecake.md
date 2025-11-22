@@ -34,12 +34,12 @@ A lighter, healthier take on classic cheesecake using Greek yogurt and cream che
 3. **Assemble:** Use a small rectangular dish (about the size of a meal-prep container). Spoon in the "cheesecake" mixture, then the crushed crackers, and finally strawberries. You can also layer these if you prefer.
 4. **Chill:** Pop in the fridge for at least 2 hours to set. This is on the softer side because it uses yogurt and cream cheese. Then cut into 4 servings and enjoy!
 
-## Nutrition (per serving)
+### Nutrition
 
-- **Calories:** 200
-- **Protein:** 20g
+- **Calories:** 200 per serving
+- **Protein:** 20g per serving
 
-## Notes
+### Notes
 
 - This dessert is on the softer side due to the yogurt and cream cheese base
 - Feel free to layer the crackers and strawberries throughout for a more traditional parfait-style presentation

@@ -34,12 +34,12 @@ Una versión más ligera y saludable de la tarta de queso clásica usando yogur 
 3. **Ensambla:** Usa un plato rectangular pequeño (aproximadamente del tamaño de un contenedor para preparación de comidas). Coloca con una cuchara la mezcla de "tarta de queso", luego las galletas trituradas y finalmente las fresas. También puedes poner estos ingredientes en capas si lo prefieres.
 4. **Refrigera:** Pon en el refrigerador durante al menos 2 horas para que se asiente. Esto queda del lado más suave porque usa yogur y queso crema. Luego corta en 4 porciones y ¡disfruta!
 
-## Nutrición (por porción)
+### Nutrición
 
-- **Calorías:** 200
-- **Proteína:** 20g
+- **Calorías:** 200 por porción
+- **Proteína:** 20g por porción
 
-## Notas
+### Notas
 
 - Este postre queda del lado más suave debido a la base de yogur y queso crema
 - Siéntete libre de poner en capas las galletas y las fresas para una presentación estilo parfait más tradicional
