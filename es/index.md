@@ -66,3 +66,13 @@ Una colección curada de recetas generadas o mejoradas con IA.
 </ul>
 
 </div>
+
+<div class="category-section">
+
+<h3>Guarniciones</h3>
+
+<ul class="recipe-list">
+<li><a href="sides/simple-lemon-garlic-lentils">Lentejas Simples con Limón y Ajo</a></li>
+</ul>
+
+</div>

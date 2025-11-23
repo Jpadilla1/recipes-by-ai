@@ -66,3 +66,13 @@ A curated collection of recipes generated or enhanced with AI.
 </ul>
 
 </div>
+
+<div class="category-section">
+
+<h3>Sides</h3>
+
+<ul class="recipe-list">
+<li><a href="sides/simple-lemon-garlic-lentils">Simple Lemon Garlic Lentils</a></li>
+</ul>
+
+</div>
