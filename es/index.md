@@ -72,6 +72,7 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Guarniciones</h3>
 
 <ul class="recipe-list">
+<li><a href="sides/quick-asian-cucumber-salad">Ensalada Rápida de Pepino Estilo Asiático</a></li>
 <li><a href="sides/simple-lemon-garlic-lentils">Lentejas Simples con Limón y Ajo</a></li>
 </ul>
 
