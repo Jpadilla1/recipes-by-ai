@@ -12,9 +12,9 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Desayuno</h3>
 
 <ul class="recipe-list">
-<li><a href="breakfast/avocado-toast">Tostada de Aguacate <span class="new-indicator"></span></a></li>
-<li><a href="breakfast/elevated-triple-coconut-oatmeal">Avena Elevada de Triple Coco <span class="new-indicator"></span></a></li>
-<li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Bagel con Crema de Limón, Fresas y Pistacho <span class="new-indicator"></span></a></li>
+<li><a href="breakfast/avocado-toast">Tostada de Aguacate</a></li>
+<li><a href="breakfast/elevated-triple-coconut-oatmeal">Avena Elevada de Triple Coco</a></li>
+<li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Bagel con Crema de Limón, Fresas y Pistacho</a></li>
 </ul>
 
 </div>
@@ -24,8 +24,8 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Pan</h3>
 
 <ul class="recipe-list">
-<li><a href="bread/no-knead-cranberry-walnut-bread">Pan de Arándanos y Nueces (Sin Amasar) <span class="new-indicator"></span></a></li>
-<li><a href="bread/no-knead-whole-wheat-bread">Pan Integral Sin Amasar <span class="new-indicator"></span></a></li>
+<li><a href="bread/no-knead-cranberry-walnut-bread">Pan de Arándanos y Nueces (Sin Amasar)</a></li>
+<li><a href="bread/no-knead-whole-wheat-bread">Pan Integral Sin Amasar</a></li>
 </ul>
 
 </div>
@@ -35,9 +35,9 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Galletas</h3>
 
 <ul class="recipe-list">
-<li><a href="cookies/gingerbread-cheesecake">Galletas de Jengibre con Cheesecake <span class="new-indicator"></span></a></li>
-<li><a href="cookies/lemon-almond-shortbread-cookies">Galletas de Mantequilla de Limón y Almendra <span class="new-indicator"></span></a></li>
-<li><a href="cookies/magical-almond-cookies">Galletas Mágicas de Almendra <span class="new-indicator"></span></a></li>
+<li><a href="cookies/gingerbread-cheesecake">Galletas de Jengibre con Cheesecake</a></li>
+<li><a href="cookies/lemon-almond-shortbread-cookies">Galletas de Mantequilla de Limón y Almendra</a></li>
+<li><a href="cookies/magical-almond-cookies">Galletas Mágicas de Almendra</a></li>
 </ul>
 
 </div>
@@ -48,10 +48,10 @@ Una colección curada de recetas generadas o mejoradas con IA.
 
 <ul class="recipe-list">
 <li><a href="desserts/deconstructed-strawberry-cheesecake">Tarta de Queso Deconstruida de Fresa <span class="new-indicator"></span></a></li>
-<li><a href="desserts/healthy-snickers-stuffed-dates">Dátiles Rellenos Estilo "Snickers" Saludables <span class="new-indicator"></span></a></li>
-<li><a href="desserts/honey-baked-pears">Peras Horneadas con Miel <span class="new-indicator"></span></a></li>
-<li><a href="desserts/puff-pastry-shells-with-pumpkin-cream-filling">Conchas de Hojaldre con Relleno de Crema de Calabaza <span class="new-indicator"></span></a></li>
-<li><a href="desserts/strawberry-mascarpone-puff-tartlets">Tartaletas de Hojaldre con Fresas y Mascarpone <span class="new-indicator"></span></a></li>
+<li><a href="desserts/healthy-snickers-stuffed-dates">Dátiles Rellenos Estilo "Snickers" Saludables</a></li>
+<li><a href="desserts/honey-baked-pears">Peras Horneadas con Miel</a></li>
+<li><a href="desserts/puff-pastry-shells-with-pumpkin-cream-filling">Conchas de Hojaldre con Relleno de Crema de Calabaza</a></li>
+<li><a href="desserts/strawberry-mascarpone-puff-tartlets">Tartaletas de Hojaldre con Fresas y Mascarpone</a></li>
 </ul>
 
 </div>
@@ -61,8 +61,8 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Bebidas</h3>
 
 <ul class="recipe-list">
-<li><a href="drinks/hot-chocolate">Chocolate Caliente <span class="new-indicator"></span></a></li>
-<li><a href="drinks/orange-strawberry-sunset-mocktail">Cóctel sin Alcohol Atardecer de Naranja y Fresa <span class="new-indicator"></span></a></li>
+<li><a href="drinks/hot-chocolate">Chocolate Caliente</a></li>
+<li><a href="drinks/orange-strawberry-sunset-mocktail">Cóctel sin Alcohol Atardecer de Naranja y Fresa</a></li>
 </ul>
 
 </div>

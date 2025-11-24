@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 /**
- * Check which recipes were added in the last 30 days based on git commit dates
+ * Check which recipes were added in the last 3 days based on git commit dates
  * This helps identify which recipes should have the NEW indicator
  */
 
 const { execSync } = require('child_process');
 const path = require('path');
 
-const DAYS_THRESHOLD = 30;
+const DAYS_THRESHOLD = 3;
 const RECIPE_DIRS = ['en', 'es'];
 const EXCLUDE_FILES = ['index.md'];
 
@@ -81,7 +81,7 @@ function main() {
   }
 
   // Display results
-  console.log('📅 NEW RECIPES (last 30 days):\n');
+  console.log(`📅 NEW RECIPES (last ${DAYS_THRESHOLD} days):\n`);
 
   for (const lang of RECIPE_DIRS) {
     console.log(`${lang.toUpperCase()}:`);
