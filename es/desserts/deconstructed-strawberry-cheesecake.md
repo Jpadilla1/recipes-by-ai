@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-22
 ---
 
 # Tarta de Queso Deconstruida de Fresa

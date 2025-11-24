@@ -1,5 +1,6 @@
 ---
 lang: en
+created_date: 2025-11-22
 ---
 
 # Deconstructed Strawberry Cheesecake

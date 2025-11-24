@@ -32,6 +32,11 @@ All recipes must follow this standard format:
 ### Example Structure
 
 ```markdown
+---
+lang: en
+created_date: 2025-11-24
+---
+
 # Recipe Name
 
 **Credit:** <https://example.com/original-recipe>
@@ -179,6 +184,7 @@ English (`/en/breakfast/pancakes.md`):
 ```markdown
 ---
 lang: en
+created_date: 2025-11-24
 ---
 
 # Fluffy Pancakes
@@ -192,6 +198,7 @@ Spanish (`/es/breakfast/pancakes.md`):
 ```markdown
 ---
 lang: es
+created_date: 2025-11-24
 ---
 
 # Panqueques Esponjosos
@@ -209,9 +216,30 @@ This site features a visual indicator (small circle •) to highlight recently a
 
 - **Duration:** Recipes show the NEW indicator for **30 days** after being added
 - **Visual Design:** Small circle dot displayed after the recipe title in index pages
-- **Tracking:** Based on git commit dates (when the recipe file was first added)
+- **Tracking:** Based on `created_date` frontmatter field (preferred) or git commit dates (fallback)
 - **Styling:** Minimalistic design that matches the site aesthetic
 - **Important:** Only mark truly NEW recipes - exclude bulk imports of older content
+
+### The `created_date` Field
+
+To accurately track when a recipe was truly created (not just added to git), use the `created_date` field in frontmatter:
+
+```yaml
+---
+lang: en
+created_date: 2025-11-24
+---
+```
+
+**Benefits:**
+- **Separates content creation from git operations** - Useful when bulk-importing older recipes
+- **Overrides git commit date** - The script prioritizes `created_date` if present
+- **Simple format** - Just `YYYY-MM-DD` in the frontmatter
+
+**When to use:**
+- ✅ Always add `created_date` when creating a truly new recipe
+- ✅ Essential for bulk imports of older recipes (prevents false "new" marking)
+- ❌ Not needed for recipes where git commit date is accurate
 
 ### Identifying New Recipes
 
@@ -223,9 +251,18 @@ node scripts/check-new-recipes.js
 
 This script:
 - Scans all recipe files in both `/en/` and `/es/` directories
-- Checks git commit history to find when each file was added
+- Checks `created_date` in frontmatter first, falls back to git commit dates
 - Lists all recipes added in the last 30 days
+- Shows date source with icons: 📝 (frontmatter) or 🔧 (git commit)
 - Provides file paths and days since addition
+
+**Example output:**
+```
+EN:
+  ✓ Quick Asian-Style Cucumber Salad
+    en/sides/quick-asian-cucumber-salad.md
+    📝 Date: 2025-11-24 (0 days ago) - from created_date
+```
 
 **Note:** When bulk-adding older recipes, manually mark only the truly new ones, not the entire bulk import.
 
@@ -272,6 +309,7 @@ The minimalistic design ensures it's noticeable but doesn't distract from the cl
 When adding a brand new recipe:
 
 - [ ] Recipe files created in both `/en/` and `/es/`
+- [ ] **Add `created_date` to frontmatter** in both language files (format: `YYYY-MM-DD`)
 - [ ] Both index.md files updated with recipe links
 - [ ] **NEW indicator added:** `<span class="new-indicator"></span>` in both index files (if truly new)
 - [ ] Changes committed and pushed

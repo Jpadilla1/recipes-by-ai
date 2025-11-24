@@ -1,5 +1,6 @@
 ---
 lang: en
+created_date: 2025-11-23
 ---
 
 # Simple Lemon Garlic Lentils

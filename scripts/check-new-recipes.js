@@ -1,16 +1,36 @@
 #!/usr/bin/env node
 
 /**
- * Check which recipes were added in the last 30 days based on git commit dates
+ * Check which recipes were added in the last 30 days based on created_date frontmatter or git commit dates
  * This helps identify which recipes should have the NEW indicator
  */
 
 const { execSync } = require('child_process');
+const fs = require('fs');
 const path = require('path');
 
 const DAYS_THRESHOLD = 30;
 const RECIPE_DIRS = ['en', 'es'];
 const EXCLUDE_FILES = ['index.md'];
+
+function getCreatedDateFromFrontmatter(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    // Match YAML frontmatter
+    const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+    if (frontmatterMatch) {
+      const frontmatter = frontmatterMatch[1];
+      // Look for created_date field
+      const dateMatch = frontmatter.match(/^created_date:\s*(\d{4}-\d{2}-\d{2})/m);
+      if (dateMatch) {
+        return new Date(dateMatch[1]);
+      }
+    }
+    return null;
+  } catch (error) {
+    return null;
+  }
+}
 
 function getFileCommitDate(filePath) {
   try {
@@ -21,6 +41,21 @@ function getFileCommitDate(filePath) {
   } catch (error) {
     return null;
   }
+}
+
+function getRecipeDate(filePath) {
+  // Prioritize created_date from frontmatter, fall back to git commit date
+  const frontmatterDate = getCreatedDateFromFrontmatter(filePath);
+  if (frontmatterDate) {
+    return { date: frontmatterDate, source: 'frontmatter' };
+  }
+
+  const gitDate = getFileCommitDate(filePath);
+  if (gitDate) {
+    return { date: gitDate, source: 'git' };
+  }
+
+  return null;
 }
 
 function findRecipeFiles(dir) {
@@ -59,17 +94,18 @@ function main() {
     const recipeFiles = findRecipeFiles(lang);
 
     for (const filePath of recipeFiles) {
-      const commitDate = getFileCommitDate(filePath);
+      const recipeInfo = getRecipeDate(filePath);
 
-      if (commitDate && commitDate >= threshold) {
+      if (recipeInfo && recipeInfo.date >= threshold) {
         const title = getRecipeTitle(filePath);
-        const daysAgo = Math.floor((now - commitDate) / (1000 * 60 * 60 * 24));
+        const daysAgo = Math.floor((now - recipeInfo.date) / (1000 * 60 * 60 * 24));
 
         newRecipes[lang].push({
           path: filePath,
           title: title,
-          date: commitDate,
-          daysAgo: daysAgo
+          date: recipeInfo.date,
+          daysAgo: daysAgo,
+          source: recipeInfo.source
         });
       }
     }
@@ -90,9 +126,11 @@ function main() {
     } else {
       newRecipes[lang].forEach(recipe => {
         const dateStr = recipe.date.toISOString().split('T')[0];
+        const sourceIcon = recipe.source === 'frontmatter' ? '📝' : '🔧';
+        const sourceLabel = recipe.source === 'frontmatter' ? 'created_date' : 'git commit';
         console.log(`  ✓ ${recipe.title}`);
         console.log(`    ${recipe.path}`);
-        console.log(`    Added: ${dateStr} (${recipe.daysAgo} days ago)\n`);
+        console.log(`    ${sourceIcon} Date: ${dateStr} (${recipe.daysAgo} days ago) - from ${sourceLabel}\n`);
       });
     }
   }
