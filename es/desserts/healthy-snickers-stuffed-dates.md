@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-18
 ---
 
 # Dátiles Rellenos Estilo "Snickers" Saludables (Mantequilla de Maní, Pacanas, Chocolate Oscuro, Sal Marina)

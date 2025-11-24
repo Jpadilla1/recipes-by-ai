@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-18
 ---
 
 # Pan de Arándanos y Nueces (Sin Amasar)
