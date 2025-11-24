@@ -207,10 +207,11 @@ This site features a visual indicator (small circle •) to highlight recently a
 
 ### How the NEW Indicator Works
 
-- **Duration:** Recipes show the NEW indicator for **3 days** after being added
+- **Duration:** Recipes show the NEW indicator for **30 days** after being added
 - **Visual Design:** Small circle dot displayed after the recipe title in index pages
 - **Tracking:** Based on git commit dates (when the recipe file was first added)
 - **Styling:** Minimalistic design that matches the site aesthetic
+- **Important:** Only mark truly NEW recipes - exclude bulk imports of older content
 
 ### Identifying New Recipes
 
@@ -223,15 +224,18 @@ node scripts/check-new-recipes.js
 This script:
 - Scans all recipe files in both `/en/` and `/es/` directories
 - Checks git commit history to find when each file was added
-- Lists all recipes added in the last 3 days
+- Lists all recipes added in the last 30 days
 - Provides file paths and days since addition
+
+**Note:** When bulk-adding older recipes, manually mark only the truly new ones, not the entire bulk import.
 
 ### Adding the NEW Indicator
 
-When adding a new recipe OR when running the regular cleanup:
+When adding a new recipe OR when running the monthly cleanup:
 
-1. **Run the check script** to identify recipes within the 3-day window
-2. **Update index.md files** for both languages:
+1. **Run the check script** to identify recipes within the 30-day window
+2. **Manually verify** which recipes are truly NEW (exclude bulk imports of old content)
+3. **Update index.md files** for both languages:
 
 ```html
 <!-- Add this span after the recipe title -->
@@ -245,12 +249,12 @@ When adding a new recipe OR when running the regular cleanup:
 
 ### Removing Old NEW Indicators
 
-**Regular Maintenance Task:**
+**Monthly Maintenance Task:**
 
 1. Run `node scripts/check-new-recipes.js` to get current list
-2. Remove `<span class="new-indicator"></span>` from recipes older than 3 days
+2. Remove `<span class="new-indicator"></span>` from recipes older than 30 days
 3. Update both `/en/index.md` and `/es/index.md`
-4. Commit changes with message like "Remove NEW indicators from recipes older than 3 days"
+4. Commit changes with message like "Remove NEW indicators from recipes older than 30 days"
 
 ### NEW Indicator Styling
 
@@ -269,14 +273,14 @@ When adding a brand new recipe:
 
 - [ ] Recipe files created in both `/en/` and `/es/`
 - [ ] Both index.md files updated with recipe links
-- [ ] **NEW indicator added:** `<span class="new-indicator"></span>` in both index files
+- [ ] **NEW indicator added:** `<span class="new-indicator"></span>` in both index files (if truly new)
 - [ ] Changes committed and pushed
 
-When doing regular cleanup (every few days):
+When doing monthly cleanup (around the 1st of each month):
 
 - [ ] Run `node scripts/check-new-recipes.js`
-- [ ] Remove indicators from recipes older than 3 days
-- [ ] Verify all recipes within 3 days have the indicator
+- [ ] Remove indicators from recipes older than 30 days
+- [ ] Verify all truly new recipes within 30 days have the indicator
 - [ ] Commit changes
 
 ## Tips
