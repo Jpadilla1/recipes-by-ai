@@ -13,8 +13,8 @@ A curated collection of recipes generated or enhanced with AI.
 
 <ul class="recipe-list">
 <li><a href="breakfast/avocado-toast">Avocado Toast</a></li>
-<li><a href="breakfast/elevated-triple-coconut-oatmeal">Elevated Triple Coconut Oatmeal</a></li>
-<li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Lemon Cream Bagel with Strawberries & Pistachio</a></li>
+<li><a href="breakfast/elevated-triple-coconut-oatmeal">Elevated Triple Coconut Oatmeal <span class="new-indicator"></span></a></li>
+<li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Lemon Cream Bagel with Strawberries & Pistachio <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
@@ -24,8 +24,8 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Bread</h3>
 
 <ul class="recipe-list">
-<li><a href="bread/no-knead-cranberry-walnut-bread">Cranberry Walnut Bread (No-Knead)</a></li>
-<li><a href="bread/no-knead-whole-wheat-bread">No-Knead Whole Wheat Bread</a></li>
+<li><a href="bread/no-knead-cranberry-walnut-bread">Cranberry Walnut Bread (No-Knead) <span class="new-indicator"></span></a></li>
+<li><a href="bread/no-knead-whole-wheat-bread">No-Knead Whole Wheat Bread <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
@@ -36,8 +36,8 @@ A curated collection of recipes generated or enhanced with AI.
 
 <ul class="recipe-list">
 <li><a href="cookies/gingerbread-cheesecake">Gingerbread Cheesecake Cookies</a></li>
-<li><a href="cookies/lemon-almond-shortbread-cookies">Lemon Almond Flour Shortbread Cookies</a></li>
-<li><a href="cookies/magical-almond-cookies">Magical Almond Cookies</a></li>
+<li><a href="cookies/lemon-almond-shortbread-cookies">Lemon Almond Flour Shortbread Cookies <span class="new-indicator"></span></a></li>
+<li><a href="cookies/magical-almond-cookies">Magical Almond Cookies <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
@@ -47,11 +47,11 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Desserts</h3>
 
 <ul class="recipe-list">
-<li><a href="desserts/deconstructed-strawberry-cheesecake">Deconstructed Strawberry Cheesecake</a></li>
-<li><a href="desserts/healthy-snickers-stuffed-dates">Healthy "Snickers" Stuffed Dates</a></li>
-<li><a href="desserts/honey-baked-pears">Honey Baked Pears</a></li>
-<li><a href="desserts/puff-pastry-shells-with-pumpkin-cream-filling">Puff Pastry Shells with Pumpkin Cream Filling</a></li>
-<li><a href="desserts/strawberry-mascarpone-puff-tartlets">Strawberry Mascarpone Puff Tartlets</a></li>
+<li><a href="desserts/deconstructed-strawberry-cheesecake">Deconstructed Strawberry Cheesecake <span class="new-indicator"></span></a></li>
+<li><a href="desserts/healthy-snickers-stuffed-dates">Healthy "Snickers" Stuffed Dates <span class="new-indicator"></span></a></li>
+<li><a href="desserts/honey-baked-pears">Honey Baked Pears <span class="new-indicator"></span></a></li>
+<li><a href="desserts/puff-pastry-shells-with-pumpkin-cream-filling">Puff Pastry Shells with Pumpkin Cream Filling <span class="new-indicator"></span></a></li>
+<li><a href="desserts/strawberry-mascarpone-puff-tartlets">Strawberry Mascarpone Puff Tartlets <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
@@ -62,7 +62,7 @@ A curated collection of recipes generated or enhanced with AI.
 
 <ul class="recipe-list">
 <li><a href="drinks/hot-chocolate">Hot Chocolate</a></li>
-<li><a href="drinks/orange-strawberry-sunset-mocktail">Orange Strawberry Sunset Mocktail</a></li>
+<li><a href="drinks/orange-strawberry-sunset-mocktail">Orange Strawberry Sunset Mocktail <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
@@ -72,8 +72,8 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Sides</h3>
 
 <ul class="recipe-list">
-<li><a href="sides/quick-asian-cucumber-salad">Quick Asian-Style Cucumber Salad</a></li>
-<li><a href="sides/simple-lemon-garlic-lentils">Simple Lemon Garlic Lentils</a></li>
+<li><a href="sides/quick-asian-cucumber-salad">Quick Asian-Style Cucumber Salad <span class="new-indicator"></span></a></li>
+<li><a href="sides/simple-lemon-garlic-lentils">Simple Lemon Garlic Lentils <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
