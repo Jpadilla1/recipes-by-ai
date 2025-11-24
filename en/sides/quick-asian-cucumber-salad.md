@@ -1,5 +1,6 @@
 ---
 lang: en
+created_date: 2025-11-24
 ---
 
 # Quick Asian-Style Cucumber Salad

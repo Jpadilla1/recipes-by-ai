@@ -1,5 +1,6 @@
 ---
 lang: en
+created_date: 2025-11-15
 ---
 
 # Lemon Cream Bagel with Strawberries & Pistachio (Michelin-style)

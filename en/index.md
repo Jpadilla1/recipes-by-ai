@@ -47,7 +47,7 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Desserts</h3>
 
 <ul class="recipe-list">
-<li><a href="desserts/deconstructed-strawberry-cheesecake">Deconstructed Strawberry Cheesecake</a></li>
+<li><a href="desserts/deconstructed-strawberry-cheesecake">Deconstructed Strawberry Cheesecake <span class="new-indicator"></span></a></li>
 <li><a href="desserts/healthy-snickers-stuffed-dates">Healthy "Snickers" Stuffed Dates</a></li>
 <li><a href="desserts/honey-baked-pears">Honey Baked Pears</a></li>
 <li><a href="desserts/puff-pastry-shells-with-pumpkin-cream-filling">Puff Pastry Shells with Pumpkin Cream Filling</a></li>
@@ -72,8 +72,8 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Sides</h3>
 
 <ul class="recipe-list">
-<li><a href="sides/quick-asian-cucumber-salad">Quick Asian-Style Cucumber Salad</a></li>
-<li><a href="sides/simple-lemon-garlic-lentils">Simple Lemon Garlic Lentils</a></li>
+<li><a href="sides/quick-asian-cucumber-salad">Quick Asian-Style Cucumber Salad <span class="new-indicator"></span></a></li>
+<li><a href="sides/simple-lemon-garlic-lentils">Simple Lemon Garlic Lentils <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>

@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-24
 ---
 
 # Ensalada Rápida de Pepino Estilo Asiático

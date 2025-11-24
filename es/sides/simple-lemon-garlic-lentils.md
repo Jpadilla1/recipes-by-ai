@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-23
 ---
 
 # Lentejas Simples con Limón y Ajo

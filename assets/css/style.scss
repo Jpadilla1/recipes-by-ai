@@ -550,6 +550,23 @@ li {
   color: var(--recipe-link-hover);
 }
 
+/* NEW indicator for recently added recipes */
+.new-indicator {
+  display: inline-block;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  margin-left: 0.625rem;
+  vertical-align: middle;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.recipe-list a:hover .new-indicator {
+  opacity: 1;
+}
+
 /* Code blocks */
 code {
   background: var(--bg-code);

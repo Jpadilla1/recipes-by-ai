@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-18
 ---
 
 # Pan Integral Sin Amasar (Horno Holandés)

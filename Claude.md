@@ -32,6 +32,11 @@ All recipes must follow this standard format:
 ### Example Structure
 
 ```markdown
+---
+lang: en
+created_date: 2025-11-24
+---
+
 # Recipe Name
 
 **Credit:** <https://example.com/original-recipe>
@@ -67,14 +72,15 @@ Storage instructions if applicable.
 
 ## Category Structure
 
-Current categories (5 total, each with recipes in both EN and ES):
+Current categories (6 total, each with recipes in both EN and ES):
 - `breakfast/` - 3 recipes per language (6 total)
 - `bread/` - 2 recipes per language (4 total)
 - `cookies/` - 3 recipes per language (6 total)
 - `desserts/` - 5 recipes per language (10 total)
 - `drinks/` - 2 recipes per language (4 total)
+- `sides/` - 2 recipes per language (4 total)
 
-**Total recipes:** 15 per language, 30 total across both English and Spanish
+**Total recipes:** 17 per language, 34 total across both English and Spanish
 
 ### When Adding a Recipe
 
@@ -178,6 +184,7 @@ English (`/en/breakfast/pancakes.md`):
 ```markdown
 ---
 lang: en
+created_date: 2025-11-24
 ---
 
 # Fluffy Pancakes
@@ -191,6 +198,7 @@ Spanish (`/es/breakfast/pancakes.md`):
 ```markdown
 ---
 lang: es
+created_date: 2025-11-24
 ---
 
 # Panqueques Esponjosos
@@ -199,6 +207,119 @@ lang: es
 **Tiempo de Cocción:** 15 mins
 ...
 ```
+
+## NEW Recipe Indicator
+
+This site features a visual indicator (small circle •) to highlight recently added recipes. This helps users discover new content at a glance.
+
+### How the NEW Indicator Works
+
+- **Duration:** Recipes show the NEW indicator for **30 days** after being added
+- **Visual Design:** Small circle dot displayed after the recipe title in index pages
+- **Tracking:** Based on `created_date` frontmatter field (preferred) or git commit dates (fallback)
+- **Styling:** Minimalistic design that matches the site aesthetic
+- **Important:** Only mark truly NEW recipes - exclude bulk imports of older content
+
+### The `created_date` Field
+
+To accurately track when a recipe was truly created (not just added to git), use the `created_date` field in frontmatter:
+
+```yaml
+---
+lang: en
+created_date: 2025-11-24
+---
+```
+
+**Benefits:**
+- **Separates content creation from git operations** - Useful when bulk-importing older recipes
+- **Overrides git commit date** - The script prioritizes `created_date` if present
+- **Simple format** - Just `YYYY-MM-DD` in the frontmatter
+
+**When to use:**
+- ✅ Always add `created_date` when creating a truly new recipe
+- ✅ Essential for bulk imports of older recipes (prevents false "new" marking)
+- ❌ Not needed for recipes where git commit date is accurate
+
+### Identifying New Recipes
+
+Use the provided script to check which recipes should have the NEW indicator:
+
+```bash
+node scripts/check-new-recipes.js
+```
+
+This script:
+- Scans all recipe files in both `/en/` and `/es/` directories
+- Checks `created_date` in frontmatter first, falls back to git commit dates
+- Lists all recipes added in the last 30 days
+- Shows date source with icons: 📝 (frontmatter) or 🔧 (git commit)
+- Provides file paths and days since addition
+
+**Example output:**
+```
+EN:
+  ✓ Quick Asian-Style Cucumber Salad
+    en/sides/quick-asian-cucumber-salad.md
+    📝 Date: 2025-11-24 (0 days ago) - from created_date
+```
+
+**Note:** When bulk-adding older recipes, manually mark only the truly new ones, not the entire bulk import.
+
+### Adding the NEW Indicator
+
+When adding a new recipe OR when running the monthly cleanup:
+
+1. **Run the check script** to identify recipes within the 30-day window
+2. **Manually verify** which recipes are truly NEW (exclude bulk imports of old content)
+3. **Update index.md files** for both languages:
+
+```html
+<!-- Add this span after the recipe title -->
+<li><a href="category/recipe-name">Recipe Title <span class="new-indicator"></span></a></li>
+```
+
+**Example:**
+```html
+<li><a href="sides/quick-asian-cucumber-salad">Quick Asian-Style Cucumber Salad <span class="new-indicator"></span></a></li>
+```
+
+### Removing Old NEW Indicators
+
+**Monthly Maintenance Task:**
+
+1. Run `node scripts/check-new-recipes.js` to get current list
+2. Remove `<span class="new-indicator"></span>` from recipes older than 30 days
+3. Update both `/en/index.md` and `/es/index.md`
+4. Commit changes with message like "Remove NEW indicators from recipes older than 30 days"
+
+### NEW Indicator Styling
+
+The indicator is styled in `assets/css/style.scss`:
+
+- **Size:** Small circle (0.375rem / 6px diameter)
+- **Color:** Uses `--accent-color` CSS variable (adapts to light/dark mode)
+- **Position:** Right-aligned after recipe title with 0.625rem left margin
+- **Interaction:** Slightly increases opacity on hover (0.6 → 1.0)
+
+The minimalistic design ensures it's noticeable but doesn't distract from the clean aesthetic.
+
+### Checklist for NEW Recipe
+
+When adding a brand new recipe:
+
+- [ ] Recipe files created in both `/en/` and `/es/`
+- [ ] **Add `created_date` to frontmatter** in both language files (format: `YYYY-MM-DD`)
+- [ ] Both index.md files updated with recipe links
+- [ ] **NEW indicator added:** `<span class="new-indicator"></span>` in both index files (if truly new)
+- [ ] Changes committed and pushed
+
+When doing monthly cleanup (around the 1st of each month):
+
+- [ ] Run `node scripts/check-new-recipes.js`
+- [ ] Remove indicators from recipes older than 30 days
+- [ ] Verify all truly new recipes within 30 days have the indicator
+- [ ] Commit changes
 
 ## Tips
 
@@ -254,21 +375,25 @@ recipes-by-ai/
 │   └── default.html         # Main HTML template (137 lines)
 ├── assets/
 │   └── css/
-│       └── style.scss       # All styling (681 lines)
-├── en/                      # English content (15 recipes)
+│       └── style.scss       # All styling (includes NEW indicator styles)
+├── scripts/
+│   └── check-new-recipes.js # Script to identify recipes < 30 days old
+├── en/                      # English content (17 recipes)
 │   ├── index.md            # English homepage
 │   ├── breakfast/          # 3 recipes
 │   ├── bread/              # 2 recipes
 │   ├── cookies/            # 3 recipes
 │   ├── desserts/           # 5 recipes
-│   └── drinks/             # 2 recipes
-├── es/                      # Spanish content (15 recipes)
+│   ├── drinks/             # 2 recipes
+│   └── sides/              # 2 recipes
+├── es/                      # Spanish content (17 recipes)
 │   ├── index.md            # Spanish homepage
 │   ├── breakfast/          # 3 recipes
 │   ├── bread/              # 2 recipes
 │   ├── cookies/            # 3 recipes
 │   ├── desserts/           # 5 recipes
-│   └── drinks/             # 2 recipes
+│   ├── drinks/             # 2 recipes
+│   └── sides/              # 2 recipes
 ├── index.md                 # Root language redirect page
 ├── Claude.md               # This file - development guidelines
 └── README.md               # Project overview

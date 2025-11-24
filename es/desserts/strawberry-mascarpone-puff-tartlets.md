@@ -1,5 +1,6 @@
 ---
 lang: es
+created_date: 2025-11-18
 ---
 
 # Tartaletas de Hojaldre con Fresas y Mascarpone (también conocido como "Hojaldre de Lujo")
