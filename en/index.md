@@ -69,6 +69,16 @@ A curated collection of recipes generated or enhanced with AI.
 
 <div class="category-section">
 
+<h3>Mains</h3>
+
+<ul class="recipe-list">
+<li><a href="mains/italian-lamb-pasta-with-mirepoix">Italian Lamb Pasta with Mirepoix <span class="new-indicator"></span></a></li>
+</ul>
+
+</div>
+
+<div class="category-section">
+
 <h3>Sides</h3>
 
 <ul class="recipe-list">

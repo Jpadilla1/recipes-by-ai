@@ -69,6 +69,16 @@ Una colección curada de recetas generadas o mejoradas con IA.
 
 <div class="category-section">
 
+<h3>Platos Principales</h3>
+
+<ul class="recipe-list">
+<li><a href="mains/italian-lamb-pasta-with-mirepoix">Pasta Italiana de Cordero con Mirepoix <span class="new-indicator"></span></a></li>
+</ul>
+
+</div>
+
+<div class="category-section">
+
 <h3>Guarniciones</h3>
 
 <ul class="recipe-list">
