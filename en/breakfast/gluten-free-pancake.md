@@ -3,7 +3,7 @@ lang: en
 created_date: 2024-12-25
 ---
 
-# Gluten Free Pancake
+# Fluffy Cloud Pancakes: Gluten-Free Perfection
 
 **Prep Time:** 10 mins
 **Cook Time:** 20 mins
@@ -17,7 +17,7 @@ Light, fluffy gluten-free pancakes made with a touch of vanilla bean and creme f
 - 1 cup 2% milk
 - 1 egg
 - 1 tablespoon butter, melted
-- 1 cup gluten free pancake mix
+- 1 cup Bob's Red Mill Gluten Free Pancake Mix
 - 1/2 vanilla bean, seeds scraped
 - 2 tablespoons creme fraiche
 
