@@ -3,14 +3,14 @@ lang: es
 created_date: 2024-12-25
 ---
 
-# Panqueques Esponjosos como Nubes: Perfección Sin Gluten
+# Panqueques Finos y Crujientes: Perfección Sin Gluten
 
 **Tiempo de Preparación:** 10 mins
 **Tiempo de Cocción:** 20 mins
 **Tiempo Total:** 30 mins
 **Porciones:** 8 panqueques
 
-Panqueques sin gluten ligeros y esponjosos, elaborados con un toque de vainilla y crème fraîche para lograr una textura increíblemente cremosa, similar a un flan.
+Panqueques sin gluten delicados, finos y crujientes, elaborados con un toque de vainilla y crème fraîche para lograr una textura increíblemente cremosa, similar a un flan.
 
 ## Ingredientes
 

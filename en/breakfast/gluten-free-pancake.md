@@ -3,14 +3,14 @@ lang: en
 created_date: 2024-12-25
 ---
 
-# Fluffy Cloud Pancakes: Gluten-Free Perfection
+# Thin & Crispy Pancakes: Gluten-Free Perfection
 
 **Prep Time:** 10 mins
 **Cook Time:** 20 mins
 **Total Time:** 30 mins
 **Yield:** 8 pancakes
 
-Light, fluffy gluten-free pancakes made with a touch of vanilla bean and creme fraiche for an incredibly creamy, custard-like texture.
+Delicate, thin and crispy gluten-free pancakes made with a touch of vanilla bean and creme fraiche for an incredibly creamy, custard-like texture.
 
 ## Ingredients
 
