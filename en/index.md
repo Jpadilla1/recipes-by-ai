@@ -36,6 +36,7 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Cookies</h3>
 
 <ul class="recipe-list">
+<li><a href="cookies/coconut-almond-cookies">4 Ingredient Coconut Almond Cookies <span class="new-indicator"></span></a></li>
 <li><a href="cookies/gingerbread-cheesecake">Gingerbread Cheesecake Cookies</a></li>
 <li><a href="cookies/lemon-almond-shortbread-cookies">Lemon Almond Flour Shortbread Cookies</a></li>
 <li><a href="cookies/magical-almond-cookies">Magical Almond Cookies</a></li>

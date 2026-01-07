@@ -36,6 +36,7 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Galletas</h3>
 
 <ul class="recipe-list">
+<li><a href="cookies/coconut-almond-cookies">Galletas de Coco y Almendra con 4 Ingredientes <span class="new-indicator"></span></a></li>
 <li><a href="cookies/gingerbread-cheesecake">Galletas de Jengibre con Cheesecake</a></li>
 <li><a href="cookies/lemon-almond-shortbread-cookies">Galletas de Mantequilla de Limón y Almendra</a></li>
 <li><a href="cookies/magical-almond-cookies">Galletas Mágicas de Almendra</a></li>
