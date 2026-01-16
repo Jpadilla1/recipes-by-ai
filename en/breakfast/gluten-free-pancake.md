@@ -1,6 +1,6 @@
 ---
 lang: en
-created_date: 2024-12-25
+created_date: 2025-12-25
 ---
 
 # Thin & Crispy Pancakes: Gluten-Free Perfection
