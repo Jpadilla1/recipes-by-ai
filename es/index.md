@@ -73,7 +73,8 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <h3>Platos Principales</h3>
 
 <ul class="recipe-list">
-<li><a href="mains/italian-lamb-pasta-with-mirepoix">Pasta Italiana de Cordero con Mirepoix <span class="new-indicator"></span></a></li>
+<li><a href="mains/crunchwraps-de-bisonte">Crunchwraps de Bisonte <span class="new-indicator"></span></a></li>
+<li><a href="mains/italian-lamb-pasta-with-mirepoix">Pasta Italiana de Cordero con Mirepoix</a></li>
 </ul>
 
 </div>

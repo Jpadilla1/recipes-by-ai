@@ -73,7 +73,8 @@ A curated collection of recipes generated or enhanced with AI.
 <h3>Mains</h3>
 
 <ul class="recipe-list">
-<li><a href="mains/italian-lamb-pasta-with-mirepoix">Italian Lamb Pasta with Mirepoix <span class="new-indicator"></span></a></li>
+<li><a href="mains/bison-crunchwraps">Bison Crunchwraps <span class="new-indicator"></span></a></li>
+<li><a href="mains/italian-lamb-pasta-with-mirepoix">Italian Lamb Pasta with Mirepoix</a></li>
 </ul>
 
 </div>
