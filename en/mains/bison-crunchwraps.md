@@ -9,13 +9,6 @@ created_date: 2026-02-16
 
 High-protein meal prep crunchwraps with seasoned bison, melted mozzarella, and fresh toppings. Perfect for batch cooking.
 
-## Macros (per wrap, approximate)
-
-- **Calories:** ~410
-- **Protein:** 35g
-- **Fat:** 18g
-- **Carbs:** 25g
-
 ## Ingredients
 
 - 2 lbs ground bison

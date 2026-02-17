@@ -9,13 +9,6 @@ created_date: 2026-02-16
 
 Crunchwraps altos en proteína con bisonte sazonado, mozzarella derretida y toppings frescos. Perfectos para meal prep.
 
-## Macros (por wrap, aproximado)
-
-- **Calorías:** ~410
-- **Proteína:** 35g
-- **Grasa:** 18g
-- **Carbohidratos:** 25g
-
 ## Ingredientes
 
 - 900g de carne molida de bisonte
