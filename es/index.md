@@ -15,7 +15,8 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <li><a href="breakfast/avocado-toast">Tostada de Aguacate</a></li>
 <li><a href="breakfast/elevated-triple-coconut-oatmeal">Avena Elevada de Triple Coco</a></li>
 <li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Bagel con Crema de Limón, Fresas y Pistacho</a></li>
-<li><a href="breakfast/gluten-free-pancake">Panqueques Sin Gluten <span class="new-indicator"></span></a></li>
+<li><a href="breakfast/gluten-free-pancake">Panqueques Sin Gluten</a></li>
+<li><a href="breakfast/oatmeal-pancakes">Panqueques de Avena <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
