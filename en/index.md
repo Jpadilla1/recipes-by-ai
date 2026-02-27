@@ -15,7 +15,8 @@ A curated collection of recipes generated or enhanced with AI.
 <li><a href="breakfast/avocado-toast">Avocado Toast</a></li>
 <li><a href="breakfast/elevated-triple-coconut-oatmeal">Elevated Triple Coconut Oatmeal</a></li>
 <li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Lemon Cream Bagel with Strawberries & Pistachio</a></li>
-<li><a href="breakfast/gluten-free-pancake">Gluten Free Pancake <span class="new-indicator"></span></a></li>
+<li><a href="breakfast/gluten-free-pancake">Gluten Free Pancake</a></li>
+<li><a href="breakfast/oatmeal-pancakes">Oatmeal Pancakes <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
