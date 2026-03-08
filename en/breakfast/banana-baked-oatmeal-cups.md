@@ -18,18 +18,17 @@ Simple grab-and-go breakfast cups made with oats, ripe bananas, and Greek yogurt
 - 1½ cups rolled oats
 - 1 cup Greek yogurt
 - ⅓ cup milk (any kind)
-- ¼ cup honey
+- ¼ cup maple syrup
 - 1 large egg
-- 1 tsp vanilla extract
-- 1 tsp cinnamon
+- 1 tsp cardamom
 - 1 tsp baking powder
 - ¼ cup chopped walnuts, pecans, or dark chocolate chips
 
 ## Instructions
 
 1. **Preheat:** Preheat oven to 375°F (190°C). Lightly grease a 12-cup muffin pan.
-2. **Mix wet ingredients:** Mash the bananas in a large bowl until mostly smooth. Add the Greek yogurt, milk, honey, egg, and vanilla. Whisk until smooth and creamy.
-3. **Add dry ingredients:** Stir in the rolled oats, cinnamon, and baking powder until no dry oats remain.
+2. **Mix wet ingredients:** Mash the bananas in a large bowl until mostly smooth. Add the Greek yogurt, milk, maple syrup, and egg. Whisk until smooth and creamy.
+3. **Add dry ingredients:** Stir in the rolled oats, cardamom, and baking powder until no dry oats remain.
 4. **Add mix-ins:** Fold in your choice of walnuts, pecans, or chocolate chips.
 5. **Fill pan:** Spoon the mixture into the muffin cups, filling almost to the top. Optionally, place a thin banana slice on top of each.
 6. **Bake:** Bake for 20-23 minutes until the tops are lightly golden and centers feel set.
@@ -39,7 +38,7 @@ Simple grab-and-go breakfast cups made with oats, ripe bananas, and Greek yogurt
 
 - **Storage:** Keep in an airtight container in the fridge for up to 4 days, or freeze for up to 3 months.
 - **Reheating:** Microwave for 20-30 seconds.
-- **Substitutions:** Use maple syrup instead of honey, flax egg instead of regular egg, or quick oats instead of rolled (texture will be softer).
+- **Substitutions:** Use honey instead of maple syrup, flax egg instead of regular egg, or quick oats instead of rolled (texture will be softer).
 
 ### Nutrition (per cup)
 
