@@ -4,15 +4,16 @@ This file contains guidelines for adding and managing recipes in this repository
 
 ---
 
-## ⚠️ CRITICAL REMINDER ⚠️
+## ⚠️ CRITICAL REMINDER — EVERY NEW RECIPE REQUIRES ALL 4 STEPS ⚠️
 
-**ALWAYS UPDATE THE INDEX FILES WHEN ADDING A NEW RECIPE!**
+When adding a new recipe, you MUST complete ALL of the following:
 
-When you add a new recipe, you MUST update BOTH index files:
-- `/en/index.md` - Add English recipe link in alphabetical order
-- `/es/index.md` - Add Spanish recipe link (matching English order, NOT alphabetically sorted in Spanish)
+1. **Create the English recipe** in `/en/<category>/recipe-name.md`
+2. **Create the Spanish translation** in `/es/<category>/recipe-name.md`
+3. **Update `/en/index.md`** — Add English recipe link under the correct category
+4. **Update `/es/index.md`** — Add Spanish recipe link under the matching category
 
-**The recipe will not appear on the website without this step!**
+**Skipping ANY step means the recipe is incomplete. Do all 4 in a single pass.**
 
 ---
 
