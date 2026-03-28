@@ -17,7 +17,8 @@ Una colección curada de recetas generadas o mejoradas con IA.
 <li><a href="breakfast/lemon-cream-bagel-with-strawberries-and-pistachio">Bagel con Crema de Limón, Fresas y Pistacho</a></li>
 <li><a href="breakfast/gluten-free-pancake">Panqueques Sin Gluten</a></li>
 <li><a href="breakfast/oatmeal-pancakes">Panqueques de Avena</a></li>
-<li><a href="breakfast/banana-baked-oatmeal-cups">Muffins de Avena Horneados con Plátano <span class="new-indicator"></span></a></li>
+<li><a href="breakfast/banana-baked-oatmeal-cups">Muffins de Avena Horneados con Plátano</a></li>
+<li><a href="breakfast/mango-lime-compote">Compota de Mango y Lima <span class="new-indicator"></span></a></li>
 </ul>
 
 </div>
